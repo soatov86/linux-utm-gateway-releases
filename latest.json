@@ -1,0 +1,7 @@
+{
+  "version": "1.0.68",
+  "file": "utm-update-1.0.68.utmupd",
+  "sha256": "b1671adef20331de5f2e886c656a828bc31c15ca48d616739fa33596810a2fde",
+  "released": "2026-08-28",
+  "notes": "Debian 12 bytecode protected release v1.0.68: Vector SVG object icons in traffic and content rules, semantic --utm-* tokens, and unified menu map"
+}
