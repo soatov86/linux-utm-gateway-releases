@@ -1,7 +1,7 @@
 {
-  "version": "1.0.69",
-  "file": "utm-update-1.0.69.utmupd",
-  "sha256": "ee74574d7ac1479eceab42bb210c83f8c67c51fc3903c3992873e3aa0bbc542f",
+  "version": "1.0.70",
+  "file": "utm-update-1.0.70.utmupd",
+  "sha256": "f7558073f43745b89b82ccfdfaa826278f31d587263d64299710de495f6ed11b",
   "released": "2026-08-28",
-  "notes": "Uslublar jadvalidan tushib qolgan qoidalar tiklandi; kontent filtri ro'yxati yana aylanadi"
+  "notes": "Interfeys qisqartirildi: accordion ekran chegarasi, jadval ro'yxat radiusi, dashboard masofalar"
 }
