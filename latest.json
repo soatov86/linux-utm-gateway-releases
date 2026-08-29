@@ -1,7 +1,7 @@
 {
-  "version": "1.0.72",
-  "file": "utm-update-1.0.72.utmupd",
-  "sha256": "9b582220f7d45b013f56d68203f2e006c82bee6806ae8575035f59a2b26b0316",
+  "version": "1.0.74",
+  "file": "utm-update-1.0.74.utmupd",
+  "sha256": "6125cc6d24363e52f891ed84f4e4730c1249a725be667aa19b036ffc4c27c352",
   "released": "2026-08-29",
-  "notes": "OpenVPN mijozlariga internet tiklandi"
+  "notes": "OpenVPN mijozlariga internet tiklandi; uzilgan mijozlar ro'yxati yangilanadi"
 }
