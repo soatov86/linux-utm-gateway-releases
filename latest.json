@@ -1,7 +1,7 @@
 {
-  "version": "1.0.71",
-  "file": "utm-update-1.0.71.utmupd",
-  "sha256": "f26e6f8b3264aee743b936971ac4fad5e61a226a8244fbf7164783e1309f9c8a",
+  "version": "1.0.72",
+  "file": "utm-update-1.0.72.utmupd",
+  "sha256": "3bd4442fa03cb40c5753c541b6e60991ea27f0642bc56a236850c9f1d5025666",
   "released": "2026-08-29",
-  "notes": "Tezkor qoida qo'shish; standart qoidalarga sharh; yordam qo'llanmasini yaxshilash"
+  "notes": "Kontekstli yordam, interaktiv diagnostika, xatolar katalogi va RU/EN/UZ qo'llanma yaxshilanishlari"
 }
