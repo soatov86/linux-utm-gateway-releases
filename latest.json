@@ -1,7 +1,7 @@
 {
-  "version": "1.0.75",
-  "file": "utm-update-1.0.75.utmupd",
-  "sha256": "38c91ec64e962202bda79f5c0f3a3b8036e3e329606440a5eed66d66341020bc",
+  "version": "1.0.76",
+  "file": "utm-update-1.0.76.utmupd",
+  "sha256": "77e2e6a2c26742fe4c94fdafd3d9c5e778c9317a35633587670a8bf761165064",
   "released": "2026-08-29",
-  "notes": "Split-tunnel rejimida lokal tarmoqqa marshrut avtomatik yuboriladi"
+  "notes": "QoS, oxogohlantirishlar va kirgan foydalanuvchilar sahifalari menyuga qaytarildi"
 }
