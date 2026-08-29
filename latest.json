@@ -1,7 +1,7 @@
 {
-  "version": "1.0.77",
-  "file": "utm-update-1.0.77.utmupd",
-  "sha256": "f3f37c54361d2eb0c1f21b9c56862935b3aff378f95f1fff314310e029c01865",
+  "version": "1.0.78",
+  "file": "utm-update-1.0.78.utmupd",
+  "sha256": "c0641cb44a7320094ff5d42d91734035435a7c863cd1307db59af41af6c4547d",
   "released": "2026-08-29",
-  "notes": "VPN uchun DNS tunnel manzilida; standart ko'rinish klassik; avto-yangilanish yoqilgan; QoS va ogohlantirishlar kartada"
+  "notes": "Dashboard kartochkalarini yopish tugmasi qaytarildi"
 }
