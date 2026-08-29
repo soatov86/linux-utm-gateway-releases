@@ -1,7 +1,7 @@
 {
-  "version": "1.0.74",
-  "file": "utm-update-1.0.74.utmupd",
-  "sha256": "6125cc6d24363e52f891ed84f4e4730c1249a725be667aa19b036ffc4c27c352",
+  "version": "1.0.75",
+  "file": "utm-update-1.0.75.utmupd",
+  "sha256": "38c91ec64e962202bda79f5c0f3a3b8036e3e329606440a5eed66d66341020bc",
   "released": "2026-08-29",
-  "notes": "OpenVPN mijozlariga internet tiklandi; uzilgan mijozlar ro'yxati yangilanadi"
+  "notes": "Split-tunnel rejimida lokal tarmoqqa marshrut avtomatik yuboriladi"
 }
