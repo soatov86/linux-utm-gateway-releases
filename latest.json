@@ -1,7 +1,7 @@
 {
-  "version": "1.0.76",
-  "file": "utm-update-1.0.76.utmupd",
-  "sha256": "77e2e6a2c26742fe4c94fdafd3d9c5e778c9317a35633587670a8bf761165064",
+  "version": "1.0.77",
+  "file": "utm-update-1.0.77.utmupd",
+  "sha256": "f3f37c54361d2eb0c1f21b9c56862935b3aff378f95f1fff314310e029c01865",
   "released": "2026-08-29",
-  "notes": "QoS, oxogohlantirishlar va kirgan foydalanuvchilar sahifalari menyuga qaytarildi"
+  "notes": "VPN uchun DNS tunnel manzilida; standart ko'rinish klassik; avto-yangilanish yoqilgan; QoS va ogohlantirishlar kartada"
 }
