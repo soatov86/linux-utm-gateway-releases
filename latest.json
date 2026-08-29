@@ -1,7 +1,7 @@
 {
-  "version": "1.0.78",
-  "file": "utm-update-1.0.78.utmupd",
-  "sha256": "c0641cb44a7320094ff5d42d91734035435a7c863cd1307db59af41af6c4547d",
-  "released": "2026-08-29",
-  "notes": "Dashboard kartochkalarini yopish tugmasi qaytarildi"
+  "version": "1.0.79",
+  "file": "utm-update-1.0.79.utmupd",
+  "sha256": "4f523d5607db70e90e4dd86e6eb2b7bd132e00e99cab074cd0fec2a5ebd998b9",
+  "released": "2026-08-30",
+  "notes": "Foydalanish statistikasi: kuniga bir marta tasodifiy o'rnatma raqami va versiya"
 }
