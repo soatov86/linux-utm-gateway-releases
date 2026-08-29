@@ -1,7 +1,7 @@
 {
-  "version": "1.0.70",
-  "file": "utm-update-1.0.70.utmupd",
-  "sha256": "f7558073f43745b89b82ccfdfaa826278f31d587263d64299710de495f6ed11b",
-  "released": "2026-08-28",
-  "notes": "Interfeys qisqartirildi: accordion ekran chegarasi, jadval ro'yxat radiusi, dashboard masofalar"
+  "version": "1.0.71",
+  "file": "utm-update-1.0.71.utmupd",
+  "sha256": "f26e6f8b3264aee743b936971ac4fad5e61a226a8244fbf7164783e1309f9c8a",
+  "released": "2026-08-29",
+  "notes": "Tezkor qoida qo'shish; standart qoidalarga sharh; yordam qo'llanmasini yaxshilash"
 }
