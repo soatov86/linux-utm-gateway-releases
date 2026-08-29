@@ -1,7 +1,7 @@
 {
-  "version": "1.0.72",
-  "file": "utm-update-1.0.72.utmupd",
-  "sha256": "3bd4442fa03cb40c5753c541b6e60991ea27f0642bc56a236850c9f1d5025666",
+  "version": "1.0.73",
+  "file": "utm-update-1.0.73.utmupd",
+  "sha256": "e6ea81c5a68e86bd9843243f85ead47635eeadd76aa4e0743b88e5cd9e531191",
   "released": "2026-08-29",
-  "notes": "Kontekstli yordam, interaktiv diagnostika, xatolar katalogi va RU/EN/UZ qo'llanma yaxshilanishlari"
+  "notes": "OpenVPN disconnect status refresh, accurate traffic-rule attribution, and dynamic client IP allocation."
 }
