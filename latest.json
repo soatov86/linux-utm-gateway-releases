@@ -1,7 +1,7 @@
 {
-  "version": "1.0.79",
-  "file": "utm-update-1.0.79.utmupd",
-  "sha256": "4f523d5607db70e90e4dd86e6eb2b7bd132e00e99cab074cd0fec2a5ebd998b9",
+  "version": "1.0.80",
+  "file": "utm-update-1.0.80.utmupd",
+  "sha256": "efc1ab710dd8b45dba64db88a589cbc06c9fc5cd4a8f3fac15c094489f3255e3",
   "released": "2026-08-30",
-  "notes": "Foydalanish statistikasi: kuniga bir marta tasodifiy o'rnatma raqami va versiya"
+  "notes": "Statistika belgisi «Дополнительные параметры» sahifasida to'g'ri ko'rsatiladi"
 }
