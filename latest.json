@@ -1,7 +1,7 @@
 {
-  "version": "1.0.86",
-  "file": "utm-update-1.0.86.utmupd",
-  "sha256": "ec8ac5c37b31eb2f67b5cc4dccb281a1b7a6b85d8d2948c36cb7013ce65ac1e3",
+  "version": "1.0.87",
+  "file": "utm-update-1.0.87.utmupd",
+  "sha256": "d3a737841bf1c9c1c012f453c19e49b77cc352d3e62e78e05c67d4fc6c2655a5",
   "released": "2026-08-30",
-  "notes": "Tanlangan qator ko'rinadi; jadval sarlavhalari yopishadi; lug'at guruhlarga bo'lindi"
+  "notes": "Qoidalarda o'chirilgan yoki manzilsiz obyektlar belgilanadi"
 }
