@@ -1,7 +1,7 @@
 {
-  "version": "1.0.84",
-  "file": "utm-update-1.0.84.utmupd",
-  "sha256": "ac17a0dd63015b78c24aae41425a48e064af228644f68efe853ef29fccb45ff3",
+  "version": "1.0.85",
+  "file": "utm-update-1.0.85.utmupd",
+  "sha256": "60365a0ccaf88c175137ccf4d42bc3c216a06feb5bef87b6687edc9dd61d03c2",
   "released": "2026-08-30",
-  "notes": "«Выбор элементов» oynasida VPN va IP guruh qatorlari yana tanlanadi"
+  "notes": "«Трафик» oynasi panelning ikonka to'plamidan chizadi"
 }
