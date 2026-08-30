@@ -1,7 +1,7 @@
 {
-  "version": "1.0.82",
-  "file": "utm-update-1.0.82.utmupd",
-  "sha256": "3b2271ab5eedb449009a3212e1b74472c09e01a3fa7b153a43f3db4b98ff8f65",
+  "version": "1.0.83",
+  "file": "utm-update-1.0.83.utmupd",
+  "sha256": "ff9b8c77d0aaa16c75297e2ffb5db43e56562a949edf581e0d6da4943733956f",
   "released": "2026-08-30",
-  "notes": "IPsec tunnelidan nima o'tishini trafik qoidalari hal qiladi; javobsiz ping ko'rinadi"
+  "notes": "Ping chiqishida bir ketma-ketlik ikki marta yozilmaydi"
 }
