@@ -1,7 +1,7 @@
 {
-  "version": "1.0.81",
-  "file": "utm-update-1.0.81.utmupd",
-  "sha256": "5c71d6d353101cf0ddbf9c9d3def7c35e820ad4fcd232a90fe6b16e95b09af8a",
+  "version": "1.0.82",
+  "file": "utm-update-1.0.82.utmupd",
+  "sha256": "3b2271ab5eedb449009a3212e1b74472c09e01a3fa7b153a43f3db4b98ff8f65",
   "released": "2026-08-30",
-  "notes": "VPN access control, user portal statistics, per-user UI preferences, and interface layout fixes"
+  "notes": "IPsec tunnelidan nima o'tishini trafik qoidalari hal qiladi; javobsiz ping ko'rinadi"
 }
