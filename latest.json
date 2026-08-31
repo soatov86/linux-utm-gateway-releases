@@ -1,7 +1,7 @@
 {
-  "version": "1.0.88",
-  "file": "utm-update-1.0.88.utmupd",
-  "sha256": "387b0d19295d073aa446f033263df089b4ecb3767372ad3e2be5d1d9de34409f",
+  "version": "1.0.89",
+  "file": "utm-update-1.0.89.utmupd",
+  "sha256": "b8635655245980735e8ff236188717d39c99db115e1064df1ce7ef33b383d7fb",
   "released": "2026-08-31",
-  "notes": "Hisobotlarda faollik vaqti; MAC bo'yicha bog'langan foydalanuvchilar hisobi"
+  "notes": "UTM Control Statistics endi butun utm.db hajmini emas, faqat statistik jadvallar va indekslar egallagan SQLite sahifalarini hisoblaydi"
 }
