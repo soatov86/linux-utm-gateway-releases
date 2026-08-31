@@ -1,7 +1,7 @@
 {
-  "version": "1.0.87",
-  "file": "utm-update-1.0.87.utmupd",
-  "sha256": "d3a737841bf1c9c1c012f453c19e49b77cc352d3e62e78e05c67d4fc6c2655a5",
-  "released": "2026-08-30",
-  "notes": "Qoidalarda o'chirilgan yoki manzilsiz obyektlar belgilanadi"
+  "version": "1.0.88",
+  "file": "utm-update-1.0.88.utmupd",
+  "sha256": "387b0d19295d073aa446f033263df089b4ecb3767372ad3e2be5d1d9de34409f",
+  "released": "2026-08-31",
+  "notes": "Hisobotlarda faollik vaqti; MAC bo'yicha bog'langan foydalanuvchilar hisobi"
 }
