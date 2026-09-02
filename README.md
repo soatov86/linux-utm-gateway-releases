@@ -12,19 +12,19 @@ Bu yerda faqat chiqarilgan paketlar turadi. Manba kod boshqa joyda.
 
 | | |
 |---|---|
-| Versiya | **1.0.90** |
-| Fayl | `utm-update-1.0.90.utmupd` |
-| Chiqarilgan | 2026-09-02 |
+| Versiya | **1.0.91** |
+| Fayl | `utm-update-1.0.91.utmupd` |
+| Chiqarilgan | 2026-09-03 |
 | Talab | Debian 12 (bookworm), Python 3.11 |
 
 Kanal holati doim `latest.json` da:
 
 ```json
 {
-  "version": "1.0.90",
-  "file":    "utm-update-1.0.90.utmupd",
+  "version": "1.0.91",
+  "file":    "utm-update-1.0.91.utmupd",
   "sha256":  "…",
-  "released": "2026-09-02",
+  "released": "2026-09-03",
   "notes":   "…"
 }
 ```
@@ -97,19 +97,19 @@ Kanal ishlamasa yoki qurilmada internet bo'lmasa.
 Paketni oling:
 
 ```bash
-curl -fLO https://raw.githubusercontent.com/soatov86/linux-utm-gateway-releases/main/utm-update-1.0.90.utmupd
+curl -fLO https://raw.githubusercontent.com/soatov86/linux-utm-gateway-releases/main/utm-update-1.0.91.utmupd
 ```
 
 `latest.json` dagi digest bilan solishtiring:
 
 ```bash
-sha256sum utm-update-1.0.90.utmupd
+sha256sum utm-update-1.0.91.utmupd
 ```
 
 Qurilmaga ko'chiring va o'rnatishga qo'ying:
 
 ```bash
-sudo mkdir -p /var/lib/utm/updates && sudo install -m600 -o root -g root utm-update-1.0.90.utmupd /var/lib/utm/updates/pending.utmupd
+sudo mkdir -p /var/lib/utm/updates && sudo install -m600 -o root -g root utm-update-1.0.91.utmupd /var/lib/utm/updates/pending.utmupd
 ```
 
 O'rnatuvchini `/opt` dan emas, `/var/lib/utm` dan yurgizing — o'rnatish
@@ -138,6 +138,48 @@ esa keyinroq, masalan xatti-harakat o'zgargani ma'lum bo'lganda kerak bo'ladi.
 ---
 
 ## Relizlar
+
+### 1.0.91 — 2026-09-03
+
+**WireGuard**
+
+- To'liq server: interfeys, tunnel tarmog'i, port, MTU, DNS va «butun trafikni
+  tunnel orqali». Kalitlar shlyuzning o'zida yaratiladi.
+- Qurilmalar ro'yxati, har biriga alohida kalit va manzil. Profil `.conf` fayli
+  yoki **QR-kod** sifatida beriladi — telefonga kalitni qo'lda kiritish shart
+  emas.
+- Foydalanuvchi o'z profilini **shaxsiy kabinetdan** oladi.
+- **Kirish huquqi kalit orqali ishlaydi.** WireGuard'da parol bosqichi yo'q:
+  fayldagi kalitning o'zi kirish huquqi. Shuning uchun foydalanuvchidan VPN
+  huquqi olinganda uning kaliti keyingi qo'llashda konfiguratsiyadan
+  chiqariladi — aks holda huquq faqat qog'ozda olingan bo'lardi.
+- Trafik qoidalaridagi «Клиенты VPN» ikkala tunnelni ham qamraydi.
+
+**Marshrutlash va NAT**
+
+- **Qoida bo'yicha kanal tanlash** — qoidalar ro'yxatidagi «Канал» ustuni.
+  Kanal yiqilsa trafik umumiy marshrutga tushadi.
+- **NAT 1:1** — tashqi manzilni ichki hostga ikki tomonlama solishtirish.
+  Faqat manzilni qayta yozadi: kim kira olishi hamon trafik qoidalarida.
+- Qoida uchun **konkret chiquvchi manzil** (`snat ip to`) — masquerade o'rniga.
+  Hostning tashqaridan o'zi bo'lib ko'rinishi kerak bo'lganda zarur.
+
+**DNS**
+
+- **DNSSEC** tekshiruvi (standart holatda o'chiq). Yoqishdan oldin shlyuz
+  o'zining ichki zonasini tekshiradi va aniq javob beradi: ota-zona
+  imzolanmagan bo'lsa xavf yo'q, imzolangan bo'lsa ichki nomlar ishlamay
+  qolishi aytiladi.
+
+**Yuklama ostida rostgo'ylik**
+
+- Yuqori yuklamada sahifalar **kamroq ma'lumot** ko'rsatadi, oldingisini qotirib
+  qo'ymaydi: hostlar ro'yxati qisqartiriladi, qoida hisoblagichlari daqiqada
+  bir yangilanadi. Ilgari jadval yuklama davomida qotib qolardi — aynan odam
+  sababini qidirayotgan paytda.
+- Ma'lumot yig'ish bosqichlari o'z holatini yozib boradi; ketma-ket ikkita xato
+  panelda ogohlantirish beradi.
+- Hisobotlarda uzoq IP-manzillar yonida nomi ko'rsatiladi.
 
 ### 1.0.90 — 2026-09-02
 
