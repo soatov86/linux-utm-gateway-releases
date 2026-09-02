@@ -1,7 +1,7 @@
 {
-  "version": "1.0.91",
-  "file": "utm-update-1.0.91.utmupd",
-  "sha256": "4d14484cbe271bb2003913d4825178c01072413394a8b7612b80e648a28b5b9f",
-  "released": "2026-09-02",
-  "notes": "WireGuard, marshrutlashni qoida bo'yicha tanlash, NAT 1:1, DNSSEC va yuklama ostida yangilanish"
+  "version": "1.0.92",
+  "file": "utm-update-1.0.92.utmupd",
+  "sha256": "9c62fb60a5fa3ce04202e6a29f8615469277f30450c8ac235a82f7d798650cd2",
+  "released": "2026-09-03",
+  "notes": "1:1 NAT: подсети, ограничение по сети, NAT reflection. «Полный конус NAT» переименован в «Сохранять за клиентом один внешний адрес»."
 }
