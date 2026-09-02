@@ -1,7 +1,7 @@
 {
-  "version": "1.0.89",
-  "file": "utm-update-1.0.89.utmupd",
-  "sha256": "b8635655245980735e8ff236188717d39c99db115e1064df1ce7ef33b383d7fb",
-  "released": "2026-08-31",
-  "notes": "UTM Control Statistics endi butun utm.db hajmini emas, faqat statistik jadvallar va indekslar egallagan SQLite sahifalarini hisoblaydi"
+  "version": "1.0.90",
+  "file": "utm-update-1.0.90.utmupd",
+  "sha256": "39f5f537c93ea8d9b86f82bb2c09af40d837b2d1af4dec9f7fea2bc565438c48",
+  "released": "2026-09-02",
+  "notes": "Hisobot davrlari va ustunlari, tunnel holati, statistikani tozalash, xatolar va eskirgan ma'lumot haqida ogohlantirishlar"
 }
