@@ -12,19 +12,19 @@ Bu yerda faqat chiqarilgan paketlar turadi. Manba kod boshqa joyda.
 
 | | |
 |---|---|
-| Versiya | **1.0.89** |
-| Fayl | `utm-update-1.0.89.utmupd` |
-| Chiqarilgan | 2026-08-31 |
+| Versiya | **1.0.90** |
+| Fayl | `utm-update-1.0.90.utmupd` |
+| Chiqarilgan | 2026-09-02 |
 | Talab | Debian 12 (bookworm), Python 3.11 |
 
 Kanal holati doim `latest.json` da:
 
 ```json
 {
-  "version": "1.0.89",
-  "file":    "utm-update-1.0.89.utmupd",
+  "version": "1.0.90",
+  "file":    "utm-update-1.0.90.utmupd",
   "sha256":  "…",
-  "released": "2026-08-31",
+  "released": "2026-09-02",
   "notes":   "…"
 }
 ```
@@ -97,19 +97,19 @@ Kanal ishlamasa yoki qurilmada internet bo'lmasa.
 Paketni oling:
 
 ```bash
-curl -fLO https://raw.githubusercontent.com/soatov86/linux-utm-gateway-releases/main/utm-update-1.0.89.utmupd
+curl -fLO https://raw.githubusercontent.com/soatov86/linux-utm-gateway-releases/main/utm-update-1.0.90.utmupd
 ```
 
 `latest.json` dagi digest bilan solishtiring:
 
 ```bash
-sha256sum utm-update-1.0.89.utmupd
+sha256sum utm-update-1.0.90.utmupd
 ```
 
 Qurilmaga ko'chiring va o'rnatishga qo'ying:
 
 ```bash
-sudo mkdir -p /var/lib/utm/updates && sudo install -m600 -o root -g root utm-update-1.0.89.utmupd /var/lib/utm/updates/pending.utmupd
+sudo mkdir -p /var/lib/utm/updates && sudo install -m600 -o root -g root utm-update-1.0.90.utmupd /var/lib/utm/updates/pending.utmupd
 ```
 
 O'rnatuvchini `/opt` dan emas, `/var/lib/utm` dan yurgizing — o'rnatish
@@ -138,6 +138,59 @@ esa keyinroq, masalan xatti-harakat o'zgargani ma'lum bo'lganda kerak bo'ladi.
 ---
 
 ## Relizlar
+
+### 1.0.90 — 2026-09-02
+
+**Hisobotlar**
+
+- «За неделю» va «За месяц» o'rniga **«За 7 дней»** va **«За 30 дней»**: ustunlar
+  endi hisobot ichidagi tugmalar bilan bir xil — surilib boruvchi oyna sanaydi.
+  Ilgari dushanba kuni «За неделю» bir kunni bildirardi va «За месяц» dan katta
+  chiqib qolardi. Kvotalar hamon hisob oyi bo'yicha o'lchanadi: har oyning
+  1-sanasida qaytadan boshlanadigan limitni hech qachon qaytadan boshlanmaydigan
+  oyna bilan o'lchab bo'lmaydi.
+- **Ustundagi raqamning o'zi hisobotni ochadi** — har biri o'z davri bilan.
+  «Отчёт» tugmasi olib tashlandi: u faqat bitta oraliqni bildira olardi.
+- «Всего» endi yozuvlar haqiqatan boshlangan kundan hisoblaydi, `1970-01-01` dan
+  emas.
+- Sarlavha qatorida hisobot qaysi kunlarni qamrab olgani ko'rinadi; chop
+  etilganda ham qoladi.
+- «Оценка активности», «Доля», «Время» va «Заблокировано» olib tashlandi: ular
+  hajmning o'lchovi emas, uning ustidagi hisob edi. Bloklangan so'rovlar
+  «Деятельность» varag'ida, ular bilan nima bo'lgani ko'rinadigan joyda qoladi.
+- Sahifa oynaga sig'adi, faqat jadval scroll bo'ladi.
+
+**Rostgo'ylik**
+
+- **IPsec tunnelining holati tekshirilmagan bo'lsa `—` ko'rsatiladi.** Ilgari
+  uch xil vaziyatda — sahifa hali so'ramaganda, yuklama ostida tekshiruv
+  o'tkazib yuborilganda va `swanctl` timeout bo'lganda — «Не подключён» deb
+  yozilardi. Administrator buni ko'rib ishlab turgan tunnelni qayta ishga
+  tushirardi.
+- **Statistika yig'ish bosqichlari o'z holatini yozib boradi.** Xato ketma-ket
+  ikki marta takrorlansa panelda ogohlantirish chiqadi va jurnalga yoziladi.
+  Ilgari xatolar butunlay jim yutilardi: hisobotlar o'smay qo'yardi, sabab esa
+  hech qayerda ko'rinmasdi.
+- **Hosts va Connections** ma'lumot olinmaganini yoki ro'yxat qisqartirilganini
+  aytadi. Bo'sh jadval «hech kim ulanmagan» degan da'vo — u skanerlash umuman
+  qilinmaganda noto'g'ri.
+- Dashboard yangilanish uzilganda «ma'lumot yangilanmayapti» deb ogohlantiradi.
+
+**Tozalash**
+
+- «Barcha statistikani o'chirish» endi haqiqatan o'chiradi: grafikning uchala
+  aniqlik darajasi va web-faoliyat jadvali ham. `VACUUM` tranzaksiya ichida
+  chaqirilardi — SQLite uni o'sha yerda rad etadi, xato jim yutilardi va fayl
+  kichraymasdi. Endi bo'shatilgan bayt soni ham qaytariladi.
+- Suricata'ning aylantirilgan jurnallari (`eve.json.1`, `fast.log.2.gz`)
+  o'chiriladi.
+
+**Boshqa**
+
+- Dialoglardagi o'n bitta `?` tugmasi qo'llanmaning tegishli bo'limini ochadi
+  (ilgari hech narsa qilmasdi).
+- Hujjatlardagi bir qator noto'g'ri ma'lumot to'g'rilandi — jumladan Help'da
+  ko'rsatilgan «zavod parollari», ular obrazda umuman yo'q.
 
 ### 1.0.89 — 2026-08-31
 
