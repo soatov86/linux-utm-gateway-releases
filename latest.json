@@ -1,7 +1,7 @@
 {
-  "version": "1.0.90",
-  "file": "utm-update-1.0.90.utmupd",
-  "sha256": "39f5f537c93ea8d9b86f82bb2c09af40d837b2d1af4dec9f7fea2bc565438c48",
+  "version": "1.0.91",
+  "file": "utm-update-1.0.91.utmupd",
+  "sha256": "4d14484cbe271bb2003913d4825178c01072413394a8b7612b80e648a28b5b9f",
   "released": "2026-09-02",
-  "notes": "Hisobot davrlari va ustunlari, tunnel holati, statistikani tozalash, xatolar va eskirgan ma'lumot haqida ogohlantirishlar"
+  "notes": "WireGuard, marshrutlashni qoida bo'yicha tanlash, NAT 1:1, DNSSEC va yuklama ostida yangilanish"
 }
