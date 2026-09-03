@@ -6,6 +6,24 @@ imzolangan paketni shu yerdan yuklab oladi.
 
 Bu yerda faqat chiqarilgan paketlar turadi. Manba kod boshqa joyda.
 
+## Hozirgi reliz
+
+| | |
+|---|---|
+| Versiya | **1.1.13** |
+| Fayl | `utm-update-1.1.13.utmupd` |
+| Chiqarilgan | 2026-09-03 |
+| SHA256 | `e549b71224ed7d09b79dc21759a195959a275f9fb1d71880f32d3932e6755be2` |
+
+Bu reliz IPsec IKEv2 remote access uchun full tunnel xulqini aniq
+hujjatlashtiradi: `0.0.0.0/0` tanlansa klientning butun interneti shlyuz
+filtri, antivirusi va accounting’idan o‘tadi hamda ofis WAN kanalini ishlatadi.
+Windows, macOS, iOS va Android’ning o‘rnatilgan klientlari bu server bilan
+split tunnel qilmaydi; split tunnel uchun WireGuard profilidan foydalaniladi.
+
+Kanalda faqat eng yangi imzolangan paket saqlanadi. Joriy ko‘rsatkich va
+digestning mashina o‘qiydigan manbasi — `latest.json`.
+
 ## Qurilma buni qanday ishlatadi
 
 Odatda hech narsa qilish kerak emas. Panel kanalni davriy tekshiradi,
@@ -69,19 +87,19 @@ Kanal ishlamasa yoki qurilmada internet bo'lmasa.
 Paketni oling:
 
 ```bash
-curl -fLO https://raw.githubusercontent.com/soatov86/linux-utm-gateway-releases/main/utm-update-1.x.x.utmupd
+curl -fLO https://raw.githubusercontent.com/soatov86/linux-utm-gateway-releases/main/utm-update-1.1.13.utmupd
 ```
 
 `latest.json` dagi digest bilan solishtiring:
 
 ```bash
-sha256sum utm-update-1.x.x.utmupd
+sha256sum utm-update-1.1.13.utmupd
 ```
 
 Qurilmaga ko'chiring va o'rnatishga qo'ying:
 
 ```bash
-sudo mkdir -p /var/lib/utm/updates && sudo install -m600 -o root -g root utm-update-1.x.x.utmupd /var/lib/utm/updates/pending.utmupd
+sudo mkdir -p /var/lib/utm/updates && sudo install -m600 -o root -g root utm-update-1.1.13.utmupd /var/lib/utm/updates/pending.utmupd
 ```
 
 O'rnatuvchini `/opt` dan emas, `/var/lib/utm` dan yurgizing — o'rnatish
