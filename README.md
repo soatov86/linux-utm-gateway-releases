@@ -69,7 +69,7 @@ Kanal ishlamasa yoki qurilmada internet bo'lmasa.
 Paketni oling:
 
 ```bash
-curl -fLO https://raw.githubusercontent.com/soatov86/linux-utm-gateway-releases/main/utm-update-1.0.95.utmupd
+curl -fLO https://raw.githubusercontent.com/soatov86/linux-utm-gateway-releases/main/utm-update-1.x.x.utmupd
 ```
 
 `latest.json` dagi digest bilan solishtiring:
@@ -81,7 +81,7 @@ sha256sum utm-update-1.0.95.utmupd
 Qurilmaga ko'chiring va o'rnatishga qo'ying:
 
 ```bash
-sudo mkdir -p /var/lib/utm/updates && sudo install -m600 -o root -g root utm-update-1.0.95.utmupd /var/lib/utm/updates/pending.utmupd
+sudo mkdir -p /var/lib/utm/updates && sudo install -m600 -o root -g root utm-update-1.x.x.utmupd /var/lib/utm/updates/pending.utmupd
 ```
 
 O'rnatuvchini `/opt` dan emas, `/var/lib/utm` dan yurgizing — o'rnatish
@@ -108,8 +108,3 @@ Yangilanishdan keyin panel javob bermasa, bu avtomatik bajariladi — buyruq
 esa keyinroq, masalan xatti-harakat o'zgargani ma'lum bo'lganda kerak bo'ladi.
 
 ---
-
-## Relizlar
-
-Ochiq kanalda faqat eng yangi imzolangan paket saqlanadi. Oldingi relizga
-qaytish gateway’ning `/opt/linux-utm-gateway.prev` nusxasi orqali bajariladi.
