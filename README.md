@@ -75,7 +75,7 @@ curl -fLO https://raw.githubusercontent.com/soatov86/linux-utm-gateway-releases/
 `latest.json` dagi digest bilan solishtiring:
 
 ```bash
-sha256sum utm-update-1.0.95.utmupd
+sha256sum utm-update-1.x.x.utmupd
 ```
 
 Qurilmaga ko'chiring va o'rnatishga qo'ying:
