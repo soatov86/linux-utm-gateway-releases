@@ -1,7 +1,7 @@
 {
-  "version": "1.1.10",
-  "file": "utm-update-1.1.10.utmupd",
-  "sha256": "6a1fe06cafba441adfcd2fde75f48c607bd4aa5b2604c82979a7fef495f3d921",
+  "version": "1.1.11",
+  "file": "utm-update-1.1.11.utmupd",
+  "sha256": "021b8b6118afd13bf12eef57a6cbb155b50d4e84eb51279a974b966240706afb",
   "released": "2026-09-03",
-  "notes": "IPsec: перезапуск charon ради нового плагина выполняется один раз, а не на каждом применении."
+  "notes": "IPsec: EAP-MSCHAPv2 требует DES из libstrongswan-standard-plugins. Пакет добавлен в образ, страница различает отсутствие DES и незагруженный плагин."
 }
