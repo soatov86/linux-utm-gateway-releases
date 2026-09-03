@@ -1,7 +1,7 @@
 {
-  "version": "1.1.11",
-  "file": "utm-update-1.1.11.utmupd",
-  "sha256": "021b8b6118afd13bf12eef57a6cbb155b50d4e84eb51279a974b966240706afb",
+  "version": "1.1.12",
+  "file": "utm-update-1.1.12.utmupd",
+  "sha256": "e739e0d1a49678b46c41d8fd97a392b166b3fdd3b7a72f8e85fd4658515ee7af",
   "released": "2026-09-03",
-  "notes": "IPsec: EAP-MSCHAPv2 требует DES из libstrongswan-standard-plugins. Пакет добавлен в образ, страница различает отсутствие DES и незагруженный плагин."
+  "notes": "IPsec: по умолчанию через туннель идёт весь трафик — встроенные клиенты Windows, macOS, iOS и Android не умеют раздельное туннелирование и теряют интернет, если предложить им только локальную сеть."
 }
