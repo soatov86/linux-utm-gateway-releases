@@ -12,8 +12,8 @@ Bu yerda faqat chiqarilgan paketlar turadi. Manba kod boshqa joyda.
 
 | | |
 |---|---|
-| Versiya | **1.0.91** |
-| Fayl | `utm-update-1.0.91.utmupd` |
+| Versiya | **1.0.95** |
+| Fayl | `utm-update-1.0.95.utmupd` |
 | Chiqarilgan | 2026-09-03 |
 | Talab | Debian 12 (bookworm), Python 3.11 |
 
@@ -21,8 +21,8 @@ Kanal holati doim `latest.json` da:
 
 ```json
 {
-  "version": "1.0.91",
-  "file":    "utm-update-1.0.91.utmupd",
+  "version": "1.0.95",
+  "file":    "utm-update-1.0.95.utmupd",
   "sha256":  "…",
   "released": "2026-09-03",
   "notes":   "…"
@@ -97,19 +97,19 @@ Kanal ishlamasa yoki qurilmada internet bo'lmasa.
 Paketni oling:
 
 ```bash
-curl -fLO https://raw.githubusercontent.com/soatov86/linux-utm-gateway-releases/main/utm-update-1.0.91.utmupd
+curl -fLO https://raw.githubusercontent.com/soatov86/linux-utm-gateway-releases/main/utm-update-1.0.95.utmupd
 ```
 
 `latest.json` dagi digest bilan solishtiring:
 
 ```bash
-sha256sum utm-update-1.0.91.utmupd
+sha256sum utm-update-1.0.95.utmupd
 ```
 
 Qurilmaga ko'chiring va o'rnatishga qo'ying:
 
 ```bash
-sudo mkdir -p /var/lib/utm/updates && sudo install -m600 -o root -g root utm-update-1.0.91.utmupd /var/lib/utm/updates/pending.utmupd
+sudo mkdir -p /var/lib/utm/updates && sudo install -m600 -o root -g root utm-update-1.0.95.utmupd /var/lib/utm/updates/pending.utmupd
 ```
 
 O'rnatuvchini `/opt` dan emas, `/var/lib/utm` dan yurgizing — o'rnatish
@@ -138,6 +138,38 @@ esa keyinroq, masalan xatti-harakat o'zgargani ma'lum bo'lganda kerak bo'ladi.
 ---
 
 ## Relizlar
+
+Ochiq kanalda faqat eng yangi imzolangan paket saqlanadi. Oldingi relizga
+qaytish gateway’ning `/opt/linux-utm-gateway.prev` nusxasi orqali bajariladi.
+
+### 1.0.95 — 2026-09-03
+
+- Foydalanuvchi bog‘lanishlari, antivirus chegaralari, IPS va kvota
+  sahifalaridagi qiymatlar server tomonida tekshiriladi.
+- Holatni o‘qib bo‘lmagan sahifalar endi yiqilmaydi; muammo tushunarli xabar
+  sifatida ko‘rsatiladi.
+
+### 1.0.94 — 2026-09-03
+
+- Interfeys manzili, DNS serverlari, marshrutlar va manzil obyektlari forma
+  yuborilishidayoq tekshiriladi.
+- Bitta noto‘g‘ri qiymat butun konfiguratsiyani qo‘llashni buzgan ikki holat
+  tuzatildi.
+
+### 1.0.93 — 2026-09-03
+
+- SMTP-relay sozlamalari saqlanadi.
+- Statistika va Squid keshini tozalash amallari real ma’lumotni o‘chiradi.
+- Yuridik ogohlantirish oddiy foydalanuvchilarga ko‘rsatiladi.
+
+### 1.0.92 — 2026-09-03
+
+- 1:1 NAT bitta manzil bilan birga teng o‘lchamli subnet mapping’ni ham
+  qo‘llaydi.
+- Hamkor tarmoq bo‘yicha cheklov va LAN ichidan tashqi manzilga murojaat qilish
+  uchun NAT reflection qo‘shildi.
+- Noto‘g‘ri «Полный конус NAT» nomi amaldagi xulqqa mos ravishda «Сохранять за
+  клиентом один внешний адрес» deb o‘zgartirildi.
 
 ### 1.0.91 — 2026-09-03
 
