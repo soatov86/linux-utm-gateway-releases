@@ -1,7 +1,7 @@
 {
-  "version": "1.1.9",
-  "file": "utm-update-1.1.9.utmupd",
-  "sha256": "85699a1215e05222cfa9b0063cd96d06d784eb3e81fecb1a919766bd5d98f714",
+  "version": "1.1.10",
+  "file": "utm-update-1.1.10.utmupd",
+  "sha256": "6a1fe06cafba441adfcd2fde75f48c607bd4aa5b2604c82979a7fef495f3d921",
   "released": "2026-09-03",
-  "notes": "IPsec: панель замечает, что плагин eap-mschapv2 установлен, но не загружен в charon, и перезапускает его сама."
+  "notes": "IPsec: перезапуск charon ради нового плагина выполняется один раз, а не на каждом применении."
 }
