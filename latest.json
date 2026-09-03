@@ -1,7 +1,7 @@
 {
-  "version": "1.1.8",
-  "file": "utm-update-1.1.8.utmupd",
-  "sha256": "deb2c8771914359640f7679337e08b7a61100bb63f90fc2587e1305803c6d2ed",
+  "version": "1.1.9",
+  "file": "utm-update-1.1.9.utmupd",
+  "sha256": "85699a1215e05222cfa9b0063cd96d06d784eb3e81fecb1a919766bd5d98f714",
   "released": "2026-09-03",
-  "notes": "IPsec: обнаружена нехватка пакета libcharon-extauth-plugins (EAP-MSCHAPv2). Он добавлен в образ, а страница теперь прямо сообщает об этом и даёт команду установки."
+  "notes": "IPsec: панель замечает, что плагин eap-mschapv2 установлен, но не загружен в charon, и перезапускает его сама."
 }
