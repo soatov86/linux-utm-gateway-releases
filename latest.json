@@ -1,7 +1,7 @@
 {
-  "version": "1.1.20",
-  "file": "utm-update-1.1.20.utmupd",
-  "sha256": "ed48ed2ac4430e58f60a489e4d35f4ca757e7a9ba0e714c7448d48a9017295a1",
+  "version": "1.1.21",
+  "file": "utm-update-1.1.21.utmupd",
+  "sha256": "f93ba0ff9bdae19ec948d481a7efd052533a98e4c906893d63a2c471566e2f83",
   "released": "2026-09-04",
-  "notes": "Исправлена синхронизация конфигурации: ссылки на VPN-серверы передаются по протоколу, а не по внутреннему номеру узла — из-за номеров обмен завершался ошибкой внешнего ключа и не применялся вовсе. Записи для сервера, которого на соседнем узле нет, пропускаются и учитываются, а не навязываются."
+  "notes": "HA: sinxronizatsiya endi o'z sozlamalarini (qo'shni manzili, umumiy sir), yangilanish keshini va o'rnatma raqamini tugunga qoldiradi; tugunlar reliz versiyasini ko'rsatadi va turli versiyalar o'rtasida almashinmaydi; DHCP diapazoni interfeys nomiga emas, tarmoqqa bog'landi."
 }
