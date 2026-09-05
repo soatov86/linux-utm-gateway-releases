@@ -1,7 +1,7 @@
 {
-  "version": "1.1.27",
-  "file": "utm-update-1.1.27.utmupd",
-  "sha256": "a850e3bc909370a366764f57db12b4a3825ab5be907775e932cadf4aa5b07c0a",
+  "version": "1.1.28",
+  "file": "utm-update-1.1.28.utmupd",
+  "sha256": "8dc8bdeddd0c6bf6d1987e26125bec7c41ec5cdb0350be034bea926793432bbf",
   "released": "2026-09-05",
-  "notes": "OSPF bo'limi endi to'liq ko'rinadi — ilova butunligicha aylanadi, tarmoqlar jadvali kesilmaydi. OSPF yoqilgan-u tarmoq qo'shilmagan bo'lsa sahifa aynan shuni aytadi. Marshrutizatorni qayta ishga tushirish «Применить» ni ushlab qolmaydi. «Обновление таблицы маршрутизации…» yozuvi endi faqat haqiqatan ma'lumot eskirganda chiqadi."
+  "notes": "OSPF autentifikatsiya kaliti endi sinxronizatsiyada to'g'ri ko'chadi — ilgari u shifrlangan holida ketib, qo'shni tugunda ochilmasdi va routerlar bir-birini tanimasdi. Marshrutlash sahifasi «Динамическая маршрутизация» ilovasida qoladi (saqlash yoki o'chirishdan keyin IPv4 ga tashlamaydi). Отказоустойчивость sahifasidagi uzun izohlar va VRRP formasi yig'iladigan bo'ldi — holat ko'rinib turadi."
 }
