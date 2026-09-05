@@ -1,7 +1,7 @@
 {
-  "version": "1.1.29",
-  "file": "utm-update-1.1.29.utmupd",
-  "sha256": "3fb175d9bbc1beb300bcae3b8cb25696afadbb7a23dd5933a71f0aff02cd7a2a",
+  "version": "1.1.30",
+  "file": "utm-update-1.1.30.utmupd",
+  "sha256": "9766fa1ae7b32f0444469b3f4653ea2c95558a78294811a6269777586bea5e08",
   "released": "2026-09-05",
-  "notes": "«Применение уже выполняется…» tuzatildi: qo'shniga sozlamalarni jo'natish apply qulfi ushlab turilgan holatda bajarilardi va qo'shni javob bermasa 30 soniyagacha barcha saqlashlar rad etilardi. Endi qulf jo'natishdan oldin bo'shatiladi."
+  "notes": "Virtual manzilni endi tahrirlash mumkin (ilgari faqat o'chirib qayta yaratish kerak edi). OSPF qo'shnilarida «Осталось до потери» ustuni. Zaxira tugunda «Отправить» tugmasi nima qilishini aytadi va tasdiq so'raydi; saqlangan-u qo'llanmagan VRRP satri shunday belgilanadi. VRRP paroli endi yopiq maydonda. Qabul qiluvchi tugun qo'shnining versiyasini kelgan payloaddan biladi — «разные версии» yozuvi eskirib qolmaydi."
 }
