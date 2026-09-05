@@ -1,7 +1,7 @@
 {
-  "version": "1.1.30",
-  "file": "utm-update-1.1.30.utmupd",
-  "sha256": "9766fa1ae7b32f0444469b3f4653ea2c95558a78294811a6269777586bea5e08",
+  "version": "1.1.31",
+  "file": "utm-update-1.1.31.utmupd",
+  "sha256": "601c508c1f0562c942a080f54814c0dbb609aad3ab21119a62f3b4e3dcb756c4",
   "released": "2026-09-05",
-  "notes": "Virtual manzilni endi tahrirlash mumkin (ilgari faqat o'chirib qayta yaratish kerak edi). OSPF qo'shnilarida «Осталось до потери» ustuni. Zaxira tugunda «Отправить» tugmasi nima qilishini aytadi va tasdiq so'raydi; saqlangan-u qo'llanmagan VRRP satri shunday belgilanadi. VRRP paroli endi yopiq maydonda. Qabul qiluvchi tugun qo'shnining versiyasini kelgan payloaddan biladi — «разные версии» yozuvi eskirib qolmaydi."
+  "notes": "BGP: «Таблица маршрутизации» da alohida ilova — o'z AS raqami, nomlangan qo'shnilar (AS, MD5 paroli), e'lon qilinadigan prefikslar, har bir qo'shni uchun aniq firewall qoidasi. Sessiya holati sinxronizatsiyasi (conntrackd): failoverda ochiq ulanishlar saqlanadi; rol o'tganda kesh yadroga yoziladi va trafik hisobi tayanchi yangilanadi, aks holda o'sha baytlar ikkinchi marta hisoblanardi. Virtual manzil qo'shish va tahrirlash endi bitta oynada."
 }
