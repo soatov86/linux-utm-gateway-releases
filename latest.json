@@ -1,7 +1,7 @@
 {
-  "version": "1.1.25",
-  "file": "utm-update-1.1.25.utmupd",
-  "sha256": "b4b94c207f273ebbff967d9fa69f7bdb246bb8c405d2c4d5d968754dc8a24a31",
+  "version": "1.1.26",
+  "file": "utm-update-1.1.26.utmupd",
+  "sha256": "9ba06680d5411941ca6a663d2b7540034eb188a6ee285bd089cbdebc3ffc2556",
   "released": "2026-09-05",
-  "notes": "Interfeyslar sahifasida har bir VPN serveri (OpenVPN, WireGuard, IPsec) o'z satriga ega bo'ldi. VPN hovuzi LAN, DHCP diapazoni yoki boshqa VPN bilan kesishsa uchala server ham rad etadi; WireGuard diapazoni o'zgarsa pir manzillari yangi tarmoqqa ko'chiriladi. Sinxronizatsiya xatolari endi tushunarli gap bilan yoziladi."
+  "notes": "Dinamik marshrutlash (OSPF): «Таблица маршрутизации» sahifasida yangi bo'lim — shlyuz qo'shni marshrutizatorlardan marshrutlarni o'rganadi va o'zinikini e'lon qiladi. Ishtirok interfeys nomi bilan emas, tarmoq bilan beriladi; router-id har bir tugunning o'zi bo'lib qoladi va sinxronlanmaydi. Firewall qoidalari avtomatik. FRR paketi yangi ISO imijiga kiritildi."
 }
