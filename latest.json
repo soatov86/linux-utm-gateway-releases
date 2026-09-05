@@ -1,7 +1,7 @@
 {
-  "version": "1.1.23",
-  "file": "utm-update-1.1.23.utmupd",
-  "sha256": "d7d55f7afc5a39a49fb82327209c3d281cb266d1a94f56c6c15cbfb4389af95a",
+  "version": "1.1.24",
+  "file": "utm-update-1.1.24.utmupd",
+  "sha256": "364d90c367c8add5108133c15e4686df3c589d502570c37be3c62f9b8973aaf4",
   "released": "2026-09-05",
-  "notes": "HA: zaxira tugun VPN identifikatsiyasini qabul qilganda o'z sertifikatini yo'qotmaydi va panel sozlamasi raqamga emas sertifikatning o'ziga ergashadi; qabul qiluvchi tugun paneliga faqat sinxronlangan administrator paroli kiradi (SSH va konsol lokal parolda qoladi); rad etilgan almashinuv ham o'z reliz versiyasini aytadi."
+  "notes": "Interfeyslar: «Состояние» ustuni endi haqiqiy aloqani ko'rsatadi (kabel uzilgan yoki gipervizor vNIC ni uzgan port «Подключён» deb turmaydi); «Обновить» wg0/ipsec0 kabi VPN qurilmalarini o'zlashtirmaydi va oldin o'zlashtirganlarini networkd fayli bilan birga bo'shatadi; HA sahifasidagi virtual manzillar jadvali boshqa jadvallar kabi stilga keldi."
 }
