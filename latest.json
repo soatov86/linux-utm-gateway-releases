@@ -1,7 +1,7 @@
 {
-  "version": "1.1.26",
-  "file": "utm-update-1.1.26.utmupd",
-  "sha256": "9ba06680d5411941ca6a663d2b7540034eb188a6ee285bd089cbdebc3ffc2556",
+  "version": "1.1.27",
+  "file": "utm-update-1.1.27.utmupd",
+  "sha256": "a850e3bc909370a366764f57db12b4a3825ab5be907775e932cadf4aa5b07c0a",
   "released": "2026-09-05",
-  "notes": "Dinamik marshrutlash (OSPF): «Таблица маршрутизации» sahifasida yangi bo'lim — shlyuz qo'shni marshrutizatorlardan marshrutlarni o'rganadi va o'zinikini e'lon qiladi. Ishtirok interfeys nomi bilan emas, tarmoq bilan beriladi; router-id har bir tugunning o'zi bo'lib qoladi va sinxronlanmaydi. Firewall qoidalari avtomatik. FRR paketi yangi ISO imijiga kiritildi."
+  "notes": "OSPF bo'limi endi to'liq ko'rinadi — ilova butunligicha aylanadi, tarmoqlar jadvali kesilmaydi. OSPF yoqilgan-u tarmoq qo'shilmagan bo'lsa sahifa aynan shuni aytadi. Marshrutizatorni qayta ishga tushirish «Применить» ni ushlab qolmaydi. «Обновление таблицы маршрутизации…» yozuvi endi faqat haqiqatan ma'lumot eskirganda chiqadi."
 }
