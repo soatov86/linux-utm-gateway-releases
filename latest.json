@@ -1,7 +1,7 @@
 {
-  "version": "1.1.39",
-  "file": "utm-update-1.1.39.utmupd",
-  "sha256": "8bdb2ccda66ba76e062dcfdf4402d8934957256a2b1828d95ddce785496c8c1b",
+  "version": "1.1.40",
+  "file": "utm-update-1.1.40.utmupd",
+  "sha256": "1a4b1b6f45d92a3685adf38c354a4ae1249e30ce5aadd358b2a94fabfc7c012b",
   "released": "2026-09-05",
-  "notes": "Endi juftlik conntrackd versiyasini ham almashadi va farq bo'lsa sahifa ogohlantiradi. Sabab jonli sinovda topildi: conntrackd 1.4.6 NAT manzilining baytlarini teskari o'giradi (yadrodan o'qiganda ham, yadroga yozganda ham), natijada ko'chirilgan ulanish jadvalda turadi-yu, javob paketlari mos kelmay tashlanadi. Demonning o'zi bu haqda hech nima demaydi. Ikkala tugun bitta imijdan o'rnatilgan bo'lishi kerak."
+  "notes": "Sxema egasi bitta: time_ranges va mac_filter_entries endi init_db() da yaratiladi, shuning uchun yangi tugun birinchi push'dayoq sinxronlanadi"
 }
