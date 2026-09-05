@@ -1,7 +1,7 @@
 {
-  "version": "1.1.36",
-  "file": "utm-update-1.1.36.utmupd",
-  "sha256": "b83b88e3f11ac74976264c34d93f9f95afb8ec82b3c162d9eac6d4fd2a523317",
+  "version": "1.1.37",
+  "file": "utm-update-1.1.37.utmupd",
+  "sha256": "f0af2eb97637bf801e7b8d0ad70fecc7081a2baa403c71d9171bdc17f7c6dec1",
   "released": "2026-09-05",
-  "notes": "keepalived konfiguratsiyasida global_defs endi eng boshda turadi. Ilgari sync group blok undan oldin yozilardi va keepalived notify skriptlarini «keepalived_script foydalanuvchisi topilmadi» deb tashlab yuborardi — natijada failoverda hech narsa ishlamasdi, garchi fayl to'g'ri ko'rinsa ham. Xato reloadda chiqib, restartda yashirinardi."
+  "notes": "Holat sinxronizatsiyasi yoqilganda TCP oyna tekshiruvi yumshatiladi (nf_conntrack_tcp_be_liberal=1). Usiz ko'chirilgan ulanishlar yadro jadvalida bo'lsa ham, paketlari INVALID deb tashlanardi — ya'ni conntrackd ishlab, natija bermasdi. Sozlama sysctl.d ga yoziladi va darhol qo'llanadi; sinxronizatsiya o'chirilsa qaytariladi."
 }
