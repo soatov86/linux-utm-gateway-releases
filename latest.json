@@ -1,7 +1,7 @@
 {
-  "version": "1.1.24",
-  "file": "utm-update-1.1.24.utmupd",
-  "sha256": "364d90c367c8add5108133c15e4686df3c589d502570c37be3c62f9b8973aaf4",
+  "version": "1.1.25",
+  "file": "utm-update-1.1.25.utmupd",
+  "sha256": "b4b94c207f273ebbff967d9fa69f7bdb246bb8c405d2c4d5d968754dc8a24a31",
   "released": "2026-09-05",
-  "notes": "Interfeyslar: «Состояние» ustuni endi haqiqiy aloqani ko'rsatadi (kabel uzilgan yoki gipervizor vNIC ni uzgan port «Подключён» deb turmaydi); «Обновить» wg0/ipsec0 kabi VPN qurilmalarini o'zlashtirmaydi va oldin o'zlashtirganlarini networkd fayli bilan birga bo'shatadi; HA sahifasidagi virtual manzillar jadvali boshqa jadvallar kabi stilga keldi."
+  "notes": "Interfeyslar sahifasida har bir VPN serveri (OpenVPN, WireGuard, IPsec) o'z satriga ega bo'ldi. VPN hovuzi LAN, DHCP diapazoni yoki boshqa VPN bilan kesishsa uchala server ham rad etadi; WireGuard diapazoni o'zgarsa pir manzillari yangi tarmoqqa ko'chiriladi. Sinxronizatsiya xatolari endi tushunarli gap bilan yoziladi."
 }
