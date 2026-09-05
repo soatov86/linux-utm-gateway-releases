@@ -1,7 +1,7 @@
 {
-  "version": "1.1.34",
-  "file": "utm-update-1.1.34.utmupd",
-  "sha256": "7c2ae9ff452795cc4bd7c9d28a0e9d58e3e95aaadd86e300e4913bb26ffa57d7",
+  "version": "1.1.35",
+  "file": "utm-update-1.1.35.utmupd",
+  "sha256": "b66d0a972e703d8ab44c312c30ddf86d992b7d5aa0d2784c35f302354ad79ecf",
   "released": "2026-09-05",
-  "notes": "Failover pauzasi qisqartirildi: rol o'tganda ulanishlar holati eng birinchi tiklanadi (ilgari dnsmasq qayta qurilishini kutardi), va conntrackd buyruqlari rolga mos ketma-ketlikda ishlaydi — master uchun -c/-f/-R/-B, zaxira uchun -t/-n. Ilgari master zaxira ketma-ketligini bajarardi."
+  "notes": "Failover pauzasi yana qisqartirildi: ulanishlar holatini yadroga ko'chirish endi Python ishga tushishidan oldin, sof bash bilan bajariladi. Ilgari u db va policy modullari importini kutardi — har qo'shimcha soniya esa TCP ning keyingi urinishini ikki barobar uzoqlashtiradi."
 }
