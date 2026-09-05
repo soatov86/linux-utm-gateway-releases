@@ -1,7 +1,7 @@
 {
-  "version": "1.1.35",
-  "file": "utm-update-1.1.35.utmupd",
-  "sha256": "b66d0a972e703d8ab44c312c30ddf86d992b7d5aa0d2784c35f302354ad79ecf",
+  "version": "1.1.36",
+  "file": "utm-update-1.1.36.utmupd",
+  "sha256": "b83b88e3f11ac74976264c34d93f9f95afb8ec82b3c162d9eac6d4fd2a523317",
   "released": "2026-09-05",
-  "notes": "Failover pauzasi yana qisqartirildi: ulanishlar holatini yadroga ko'chirish endi Python ishga tushishidan oldin, sof bash bilan bajariladi. Ilgari u db va policy modullari importini kutardi — har qo'shimcha soniya esa TCP ning keyingi urinishini ikki barobar uzoqlashtiradi."
+  "notes": "keepalived konfiguratsiyasida global_defs endi eng boshda turadi. Ilgari sync group blok undan oldin yozilardi va keepalived notify skriptlarini «keepalived_script foydalanuvchisi topilmadi» deb tashlab yuborardi — natijada failoverda hech narsa ishlamasdi, garchi fayl to'g'ri ko'rinsa ham. Xato reloadda chiqib, restartda yashirinardi."
 }
