@@ -1,7 +1,7 @@
 {
-  "version": "1.1.32",
-  "file": "utm-update-1.1.32.utmupd",
-  "sha256": "8da0ac831904d41849a1a06f9facb08a409139c7f59d7e731344526c48006e51",
+  "version": "1.1.33",
+  "file": "utm-update-1.1.33.utmupd",
+  "sha256": "822ab4f22e7bbd384978d28a9e5c7df48c87cbe0f149fa9d35efd2e21840b3db",
   "released": "2026-09-05",
-  "notes": "Failover endi ochiq ulanishlarni saqlaydi. Ikkita tuzatish: keepalived hooki («Применить» da o'zi o'rnatiladi — ilgari u faqat ISO o'rnatishida ko'chirilardi, ya'ni maydondagi qutilarda failoverda hech narsa ishlamasdi) va internet interfeysida virtual manzil bo'lsa chiquvchi trafik masquerade emas, o'sha manzilga tarjima qilinadi — aks holda javoblar endigina o'lgan tugunning manziliga qaytardi."
+  "notes": "Bir nechta virtual manzil endi birga ko'chadi (VRRP sync group). Ilgari LAN uzilganda LAN manzili ko'chib, WAN manzili joyida qolardi — trafik bir tugunga kelib, ikkinchisining manziliga tarjima qilinardi va javoblar yo'qolardi. Endi guruhdagi istalgan nusxa tushsa, hammasi birga o'tadi."
 }
