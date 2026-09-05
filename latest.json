@@ -1,7 +1,7 @@
 {
-  "version": "1.1.21",
-  "file": "utm-update-1.1.21.utmupd",
-  "sha256": "f93ba0ff9bdae19ec948d481a7efd052533a98e4c906893d63a2c471566e2f83",
-  "released": "2026-09-04",
-  "notes": "HA: sinxronizatsiya endi o'z sozlamalarini (qo'shni manzili, umumiy sir), yangilanish keshini va o'rnatma raqamini tugunga qoldiradi; tugunlar reliz versiyasini ko'rsatadi va turli versiyalar o'rtasida almashinmaydi; DHCP diapazoni interfeys nomiga emas, tarmoqqa bog'landi."
+  "version": "1.1.22",
+  "file": "utm-update-1.1.22.utmupd",
+  "sha256": "f45d11cb2238fec38decc93d9ca1a84eb46cf6a8e9796e210a8c361031af0d5a",
+  "released": "2026-09-05",
+  "notes": "HA: sozlamalardagi har qanday o'zgarish zaxira tugunga o'zi ketadi (oxirgi o'zgarishdan 5 soniya keyin, bitta almashinuv bilan); almashinuv qat'iy bir tomonlama — qabul qiluvchi tugun orqaga jo'natmaydi va sahifa qaysi tomonda ekanini aytadi."
 }
