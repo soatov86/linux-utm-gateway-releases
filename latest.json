@@ -1,7 +1,7 @@
 {
-  "version": "1.1.37",
-  "file": "utm-update-1.1.37.utmupd",
-  "sha256": "f0af2eb97637bf801e7b8d0ad70fecc7081a2baa403c71d9171bdc17f7c6dec1",
+  "version": "1.1.38",
+  "file": "utm-update-1.1.38.utmupd",
+  "sha256": "3c95ec5094cd76cc7956ab1c66533c482bc97264fd6e56304489847c5e35cea7",
   "released": "2026-09-05",
-  "notes": "Holat sinxronizatsiyasi yoqilganda TCP oyna tekshiruvi yumshatiladi (nf_conntrack_tcp_be_liberal=1). Usiz ko'chirilgan ulanishlar yadro jadvalida bo'lsa ham, paketlari INVALID deb tashlanardi — ya'ni conntrackd ishlab, natija bermasdi. Sozlama sysctl.d ga yoziladi va darhol qo'llanadi; sinxronizatsiya o'chirilsa qaytariladi."
+  "notes": "Yadro sozlamasi endi /proc orqali o'qib-yoziladi, sysctl buyrug'i orqali emas — u /sbin da bo'lib, hamma PATH da uchramaydi."
 }
