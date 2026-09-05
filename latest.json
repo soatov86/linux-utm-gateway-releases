@@ -1,7 +1,7 @@
 {
-  "version": "1.1.31",
-  "file": "utm-update-1.1.31.utmupd",
-  "sha256": "601c508c1f0562c942a080f54814c0dbb609aad3ab21119a62f3b4e3dcb756c4",
+  "version": "1.1.32",
+  "file": "utm-update-1.1.32.utmupd",
+  "sha256": "8da0ac831904d41849a1a06f9facb08a409139c7f59d7e731344526c48006e51",
   "released": "2026-09-05",
-  "notes": "BGP: «Таблица маршрутизации» da alohida ilova — o'z AS raqami, nomlangan qo'shnilar (AS, MD5 paroli), e'lon qilinadigan prefikslar, har bir qo'shni uchun aniq firewall qoidasi. Sessiya holati sinxronizatsiyasi (conntrackd): failoverda ochiq ulanishlar saqlanadi; rol o'tganda kesh yadroga yoziladi va trafik hisobi tayanchi yangilanadi, aks holda o'sha baytlar ikkinchi marta hisoblanardi. Virtual manzil qo'shish va tahrirlash endi bitta oynada."
+  "notes": "Failover endi ochiq ulanishlarni saqlaydi. Ikkita tuzatish: keepalived hooki («Применить» da o'zi o'rnatiladi — ilgari u faqat ISO o'rnatishida ko'chirilardi, ya'ni maydondagi qutilarda failoverda hech narsa ishlamasdi) va internet interfeysida virtual manzil bo'lsa chiquvchi trafik masquerade emas, o'sha manzilga tarjima qilinadi — aks holda javoblar endigina o'lgan tugunning manziliga qaytardi."
 }
