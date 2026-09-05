@@ -1,7 +1,7 @@
 {
-  "version": "1.1.28",
-  "file": "utm-update-1.1.28.utmupd",
-  "sha256": "8dc8bdeddd0c6bf6d1987e26125bec7c41ec5cdb0350be034bea926793432bbf",
+  "version": "1.1.29",
+  "file": "utm-update-1.1.29.utmupd",
+  "sha256": "3fb175d9bbc1beb300bcae3b8cb25696afadbb7a23dd5933a71f0aff02cd7a2a",
   "released": "2026-09-05",
-  "notes": "OSPF autentifikatsiya kaliti endi sinxronizatsiyada to'g'ri ko'chadi — ilgari u shifrlangan holida ketib, qo'shni tugunda ochilmasdi va routerlar bir-birini tanimasdi. Marshrutlash sahifasi «Динамическая маршрутизация» ilovasida qoladi (saqlash yoki o'chirishdan keyin IPv4 ga tashlamaydi). Отказоустойчивость sahifasidagi uzun izohlar va VRRP formasi yig'iladigan bo'ldi — holat ko'rinib turadi."
+  "notes": "«Применение уже выполняется…» tuzatildi: qo'shniga sozlamalarni jo'natish apply qulfi ushlab turilgan holatda bajarilardi va qo'shni javob bermasa 30 soniyagacha barcha saqlashlar rad etilardi. Endi qulf jo'natishdan oldin bo'shatiladi."
 }
