@@ -1,7 +1,7 @@
 {
-  "version": "1.1.22",
-  "file": "utm-update-1.1.22.utmupd",
-  "sha256": "f45d11cb2238fec38decc93d9ca1a84eb46cf6a8e9796e210a8c361031af0d5a",
+  "version": "1.1.23",
+  "file": "utm-update-1.1.23.utmupd",
+  "sha256": "d7d55f7afc5a39a49fb82327209c3d281cb266d1a94f56c6c15cbfb4389af95a",
   "released": "2026-09-05",
-  "notes": "HA: sozlamalardagi har qanday o'zgarish zaxira tugunga o'zi ketadi (oxirgi o'zgarishdan 5 soniya keyin, bitta almashinuv bilan); almashinuv qat'iy bir tomonlama — qabul qiluvchi tugun orqaga jo'natmaydi va sahifa qaysi tomonda ekanini aytadi."
+  "notes": "HA: zaxira tugun VPN identifikatsiyasini qabul qilganda o'z sertifikatini yo'qotmaydi va panel sozlamasi raqamga emas sertifikatning o'ziga ergashadi; qabul qiluvchi tugun paneliga faqat sinxronlangan administrator paroli kiradi (SSH va konsol lokal parolda qoladi); rad etilgan almashinuv ham o'z reliz versiyasini aytadi."
 }
