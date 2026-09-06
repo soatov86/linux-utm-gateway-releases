@@ -1,7 +1,7 @@
 {
-  "version": "1.1.41",
-  "file": "utm-update-1.1.41.utmupd",
-  "sha256": "b313ff4e5f7c5f0a309c23ce44207f30cb6ede8e9405e8de616ceacffc331463",
-  "released": "2026-09-06",
-  "notes": "WireGuard sayt-sayt tunnellari: har biriga o'z interfeysi, HA juftligida virtual manzildan ishlaydi. BGP sahifasida «Полученные маршруты» jadvali. Tezlik ustuni endi ingliz va o'zbek tilida ham to'g'ri saralanadi."
+  "version": "1.1.42",
+  "file": "utm-update-1.1.42.utmupd",
+  "sha256": "58042001ed68a3273d3374c86e964d3559c423c0c24f8b81ac49135496e7ea12",
+  "released": "2026-09-07",
+  "notes": "WireGuard sayt-sayt: uzoq tomonning ochiq kaliti endi majburiy emas. Ikkala tomon kalitni saqlashda oladi, shuning uchun birinchi uchini kalitsiz saqlab, ikkinchisidan keyin to'ldirasiz. Kalitsiz tunnel ko'tarilmaydi va buni aytib turadi."
 }
