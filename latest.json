@@ -1,7 +1,7 @@
 {
-  "version": "1.1.40",
-  "file": "utm-update-1.1.40.utmupd",
-  "sha256": "1a4b1b6f45d92a3685adf38c354a4ae1249e30ce5aadd358b2a94fabfc7c012b",
-  "released": "2026-09-05",
-  "notes": "Sxema egasi bitta: time_ranges va mac_filter_entries endi init_db() da yaratiladi, shuning uchun yangi tugun birinchi push'dayoq sinxronlanadi"
+  "version": "1.1.41",
+  "file": "utm-update-1.1.41.utmupd",
+  "sha256": "b313ff4e5f7c5f0a309c23ce44207f30cb6ede8e9405e8de616ceacffc331463",
+  "released": "2026-09-06",
+  "notes": "WireGuard sayt-sayt tunnellari: har biriga o'z interfeysi, HA juftligida virtual manzildan ishlaydi. BGP sahifasida «Полученные маршруты» jadvali. Tezlik ustuni endi ingliz va o'zbek tilida ham to'g'ri saralanadi."
 }
