@@ -1,7 +1,7 @@
 {
-  "version": "1.1.43",
-  "file": "utm-update-1.1.43.utmupd",
-  "sha256": "78aabcc5810a5652e389db41bb1ba0987093212ed24e733505124ba1877790e3",
+  "version": "1.1.44",
+  "file": "utm-update-1.1.44.utmupd",
+  "sha256": "efb591a3e5491906fb93447bfe734a08a68c0a6115e5409b79b0273b70801cc0",
   "released": "2026-09-07",
-  "notes": "WireGuard sayt-sayt tuzatildi: konfiguratsiyaga shifrlangan maxfiy kalit yozilib, tunnel ko'tarilmasdi. Bundan tashqari, o'z segmentimizdagi uzoq tomonga marshrut endi to'g'ri yoziladi."
+  "notes": "WireGuard sayt-sayt tunneli endi haqiqatan ko'tariladi: konfiguratsiyaga to'g'ri kalit yoziladi, marshrut direktivalari o'z bo'limida turadi va HA juftligida terish virtual manzildan ketadi. Jonli juftlikda tekshirilgan."
 }
