@@ -1,7 +1,7 @@
 {
-  "version": "1.1.45",
-  "file": "utm-update-1.1.45.utmupd",
-  "sha256": "473624c5d11cb87149b35b321ab78486a0b59d3cf1c6e233d649493c31b311e2",
+  "version": "1.1.46",
+  "file": "utm-update-1.1.46.utmupd",
+  "sha256": "53a08477803192997f9ff8b688834aff9fa3e86056b5094d4ae4dfa244ebab42",
   "released": "2026-09-07",
-  "notes": "Marshrutlash siyosati: «Маршрутизация → Политика» yorlig'ida prefiks ro'yxatlari va marshrut xaritalari. Xarita BGP qo'shnisiga ikki yo'nalish uchun biriktiriladi, OSPF va BGP da redistribute ham filtrlanadi. Hali kimdir murojaat qilayotgan ro'yxat yoki xaritani o'chirib bo'lmaydi."
+  "notes": "HA juftligida IPsec sayt-sayt tuneli endi VIP kimda bo'lsa o'sha tugunda ishlaydi, zaxirada esa jim turadi — failover 51 soniyadan 8 soniyaga tushdi. «Интерфейсы» sahifasida uchala VPN serveri birinchi yuklanishdan ko'rinadi. WireGuard tunneli yaratilayotganda bizning ochiq kalitimiz darhol ko'rsatiladi."
 }
