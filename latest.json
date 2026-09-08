@@ -1,7 +1,7 @@
 {
-  "version": "1.1.48",
-  "file": "utm-update-1.1.48.utmupd",
-  "sha256": "4c3677de55d54b98180859332d43337a687354c14dc74d5fbf09b25433f8b385",
-  "released": "2026-09-08",
-  "notes": "Bu relizning deyarli hammasi jonli sinovda topilgan nuqsonlar — LAN mijozi va uch qutili stend bilan. Xavfsiz qidiruv taxalluslari mijozlar so'raydigan DNS ga tushmasdi, ya'ni funksiya umuman ishlamagan. DHCP rezervatsiyasi, DNS uzatish qoidalari va statik DNS yozuvlari o'zgarganda dnsmasq qayta ishga tushmasdi — o'zgarish keyingi qayta ishga tushishgacha kuchga kirmasdi. VPN tunnellari haqidagi ogohlantirish swanctl chiqishini noto'g'ri formatda o'qirdi va hech qachon ishlamagan. Kaptiv portal mijozni yechilmaydigan nomga yo'naltirardi: shlyuzning «utm», «gateway» va «wpad» nomlari endi shlyuzning o'z manzilini ko'rsatadi va qidiruv domeni bilan ham e'lon qilinadi. Zaxira nusxa o'zi yozgan arxivni tiklay olmasdi — tekshiruv tar yozadigan katalog yozuvlarini rad etardi. HA juftligida sinxronizatsiya qo'shnining o'z trafik hisoblagichlarini ustiga yozardi. Hisobot sahifalari tilni har bir satr uchun bazadan qayta so'rardi — «Неизвестные узлы» 5.8 soniyadan 0.8 ga tushdi."
+  "version": "1.1.49",
+  "file": "utm-update-1.1.49.utmupd",
+  "sha256": "cc2d26c17f5d17fc37024ad20be23622910e5a091f434b333df53e4543806c78",
+  "released": "2026-09-09",
+  "notes": "Inline IPS (NFQUEUE) va HTTPS filtri (SNI/deshifratsiya); rollback endi unitlarni tozalaydi; klaster o'zi quvib yetadi"
 }
