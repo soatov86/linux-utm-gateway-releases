@@ -1,7 +1,7 @@
 {
-  "version": "1.1.46",
-  "file": "utm-update-1.1.46.utmupd",
-  "sha256": "53a08477803192997f9ff8b688834aff9fa3e86056b5094d4ae4dfa244ebab42",
-  "released": "2026-09-07",
-  "notes": "HA juftligida IPsec sayt-sayt tuneli endi VIP kimda bo'lsa o'sha tugunda ishlaydi, zaxirada esa jim turadi — failover 51 soniyadan 8 soniyaga tushdi. «Интерфейсы» sahifasida uchala VPN serveri birinchi yuklanishdan ko'rinadi. WireGuard tunneli yaratilayotganda bizning ochiq kalitimiz darhol ko'rsatiladi."
+  "version": "1.1.47",
+  "file": "utm-update-1.1.47.utmupd",
+  "sha256": "ad36e5bd21808c1abf28df1d903a1fb05be8f5e21addb1129a158be344a5e263",
+  "released": "2026-09-08",
+  "notes": "Bugungi relizning ko'p qismi — yoqilgan, lekin hech narsa qilmayotgan nazoratlar. Antivirus ICAP xizmati umuman ro'yxatdan o'tmagan ekan va hech qachon skanerlamagan; endi skanerlaydi va katta fayllarni ham to'xtatib qo'ymaydi. IPS imzolari, UT1 kategoriya bazasi va GeoIP avtomatik yangilanishi hech bir o'rnatmada bir marta ham ishlamagan — cron o'rniga systemd taymerlari. IPS qora ro'yxatlari, trafik kvotasi va tezlik cheklovi endi proksi tashiydigan trafikka ham amal qiladi: ilgari ular faqat to'g'ridan-to'g'ri o'tadigan trafikni ko'rardi, ya'ni oddiy veb-ko'rish cheklovlardan tashqarida qolardi. Kontent qoidasidagi «Расписание» endi haqiqatan ham qoidaning qachon ishlashini belgilaydi. Bloklangan sahifada administrator yozgan rad etish matni ko'rsatiladi — ilgari yopiq portga yo'naltirilardi. MAC filtri yoqilgan-u interfeys tanlanmagan bo'lsa, buni aytadi. Virus, VPN va WAN-kanal ogohlantirishlari tuzatildi."
 }
