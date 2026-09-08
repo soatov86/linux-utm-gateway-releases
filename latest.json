@@ -1,7 +1,7 @@
 {
-  "version": "1.1.47",
-  "file": "utm-update-1.1.47.utmupd",
-  "sha256": "ad36e5bd21808c1abf28df1d903a1fb05be8f5e21addb1129a158be344a5e263",
+  "version": "1.1.48",
+  "file": "utm-update-1.1.48.utmupd",
+  "sha256": "4c3677de55d54b98180859332d43337a687354c14dc74d5fbf09b25433f8b385",
   "released": "2026-09-08",
-  "notes": "Bugungi relizning ko'p qismi — yoqilgan, lekin hech narsa qilmayotgan nazoratlar. Antivirus ICAP xizmati umuman ro'yxatdan o'tmagan ekan va hech qachon skanerlamagan; endi skanerlaydi va katta fayllarni ham to'xtatib qo'ymaydi. IPS imzolari, UT1 kategoriya bazasi va GeoIP avtomatik yangilanishi hech bir o'rnatmada bir marta ham ishlamagan — cron o'rniga systemd taymerlari. IPS qora ro'yxatlari, trafik kvotasi va tezlik cheklovi endi proksi tashiydigan trafikka ham amal qiladi: ilgari ular faqat to'g'ridan-to'g'ri o'tadigan trafikni ko'rardi, ya'ni oddiy veb-ko'rish cheklovlardan tashqarida qolardi. Kontent qoidasidagi «Расписание» endi haqiqatan ham qoidaning qachon ishlashini belgilaydi. Bloklangan sahifada administrator yozgan rad etish matni ko'rsatiladi — ilgari yopiq portga yo'naltirilardi. MAC filtri yoqilgan-u interfeys tanlanmagan bo'lsa, buni aytadi. Virus, VPN va WAN-kanal ogohlantirishlari tuzatildi."
+  "notes": "Bu relizning deyarli hammasi jonli sinovda topilgan nuqsonlar — LAN mijozi va uch qutili stend bilan. Xavfsiz qidiruv taxalluslari mijozlar so'raydigan DNS ga tushmasdi, ya'ni funksiya umuman ishlamagan. DHCP rezervatsiyasi, DNS uzatish qoidalari va statik DNS yozuvlari o'zgarganda dnsmasq qayta ishga tushmasdi — o'zgarish keyingi qayta ishga tushishgacha kuchga kirmasdi. VPN tunnellari haqidagi ogohlantirish swanctl chiqishini noto'g'ri formatda o'qirdi va hech qachon ishlamagan. Kaptiv portal mijozni yechilmaydigan nomga yo'naltirardi: shlyuzning «utm», «gateway» va «wpad» nomlari endi shlyuzning o'z manzilini ko'rsatadi va qidiruv domeni bilan ham e'lon qilinadi. Zaxira nusxa o'zi yozgan arxivni tiklay olmasdi — tekshiruv tar yozadigan katalog yozuvlarini rad etardi. HA juftligida sinxronizatsiya qo'shnining o'z trafik hisoblagichlarini ustiga yozardi. Hisobot sahifalari tilni har bir satr uchun bazadan qayta so'rardi — «Неизвестные узлы» 5.8 soniyadan 0.8 ga tushdi."
 }
