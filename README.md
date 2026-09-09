@@ -10,16 +10,20 @@ Bu yerda faqat chiqarilgan paketlar turadi. Manba kod boshqa joyda.
 
 | | |
 |---|---|
-| Versiya | **1.1.13** |
-| Fayl | `utm-update-1.1.13.utmupd` |
-| Chiqarilgan | 2026-09-03 |
-| SHA256 | `e549b71224ed7d09b79dc21759a195959a275f9fb1d71880f32d3932e6755be2` |
+| Versiya | **1.1.52** |
+| Fayl | `utm-update-1.1.52.utmupd` |
+| Chiqarilgan | 2026-09-09 |
+| SHA256 | `c845132f5efa18854982eb0eadfa6a5af564cf67c8746bdb03163f9a90bad75b` |
 
-Bu reliz IPsec IKEv2 remote access uchun full tunnel xulqini aniq
-hujjatlashtiradi: `0.0.0.0/0` tanlansa klientning butun interneti shlyuz
-filtri, antivirusi va accounting’idan o‘tadi hamda ofis WAN kanalini ishlatadi.
-Windows, macOS, iOS va Android’ning o‘rnatilgan klientlari bu server bilan
-split tunnel qilmaydi; split tunnel uchun WireGuard profilidan foydalaniladi.
+Bu relizda HTTPS filtri standart holatga o'tdi: shlyuz TLS ulanishining
+boshidagi server nomini o'qib, unga kontent qoidalarini qo'llaydi. Trafik
+ochilmaydi va mijozlarga hech narsa o'rnatilmaydi. To'liq deshifratsiya —
+«Фильтрация HTTPS» sahifasidagi alohida tanlov, u har bir mijozda UTM
+sertifikatini talab qiladi.
+
+Shu bilan birga IPS `NFQUEUE` orqali inline rejimda ishlay oladi: signatura
+mos kelgan paket haqiqatan tushiriladi, faqat jurnalga yozilmaydi. Standart
+rejim o'zgarmadi — mavjud qurilma yangilanish tufayli inline'ga o'tmaydi.
 
 Kanalda faqat eng yangi imzolangan paket saqlanadi. Joriy ko‘rsatkich va
 digestning mashina o‘qiydigan manbasi — `latest.json`.
@@ -87,19 +91,19 @@ Kanal ishlamasa yoki qurilmada internet bo'lmasa.
 Paketni oling:
 
 ```bash
-curl -fLO https://raw.githubusercontent.com/soatov86/linux-utm-gateway-releases/main/utm-update-1.1.13.utmupd
+curl -fLO https://raw.githubusercontent.com/soatov86/linux-utm-gateway-releases/main/utm-update-1.1.52.utmupd
 ```
 
 `latest.json` dagi digest bilan solishtiring:
 
 ```bash
-sha256sum utm-update-1.1.13.utmupd
+sha256sum utm-update-1.1.52.utmupd
 ```
 
 Qurilmaga ko'chiring va o'rnatishga qo'ying:
 
 ```bash
-sudo mkdir -p /var/lib/utm/updates && sudo install -m600 -o root -g root utm-update-1.1.13.utmupd /var/lib/utm/updates/pending.utmupd
+sudo mkdir -p /var/lib/utm/updates && sudo install -m600 -o root -g root utm-update-1.1.52.utmupd /var/lib/utm/updates/pending.utmupd
 ```
 
 O'rnatuvchini `/opt` dan emas, `/var/lib/utm` dan yurgizing — o'rnatish
