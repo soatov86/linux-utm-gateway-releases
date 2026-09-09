@@ -10,10 +10,10 @@ Bu yerda faqat chiqarilgan paketlar turadi. Manba kod boshqa joyda.
 
 | | |
 |---|---|
-| Versiya | **1.1.52** |
-| Fayl | `utm-update-1.1.52.utmupd` |
+| Versiya | **1.1.53** |
+| Fayl | `utm-update-1.1.53.utmupd` |
 | Chiqarilgan | 2026-09-09 |
-| SHA256 | `c845132f5efa18854982eb0eadfa6a5af564cf67c8746bdb03163f9a90bad75b` |
+| SHA256 | `350d313b87bd5a327f06f66d47c2dc879526c13629ace99dec37d6f3400426b3` |
 
 Bu relizda HTTPS filtri standart holatga o'tdi: shlyuz TLS ulanishining
 boshidagi server nomini o'qib, unga kontent qoidalarini qo'llaydi. Trafik
@@ -91,19 +91,19 @@ Kanal ishlamasa yoki qurilmada internet bo'lmasa.
 Paketni oling:
 
 ```bash
-curl -fLO https://raw.githubusercontent.com/soatov86/linux-utm-gateway-releases/main/utm-update-1.1.52.utmupd
+curl -fLO https://raw.githubusercontent.com/soatov86/linux-utm-gateway-releases/main/utm-update-1.1.53.utmupd
 ```
 
 `latest.json` dagi digest bilan solishtiring:
 
 ```bash
-sha256sum utm-update-1.1.52.utmupd
+sha256sum utm-update-1.1.53.utmupd
 ```
 
 Qurilmaga ko'chiring va o'rnatishga qo'ying:
 
 ```bash
-sudo mkdir -p /var/lib/utm/updates && sudo install -m600 -o root -g root utm-update-1.1.52.utmupd /var/lib/utm/updates/pending.utmupd
+sudo mkdir -p /var/lib/utm/updates && sudo install -m600 -o root -g root utm-update-1.1.53.utmupd /var/lib/utm/updates/pending.utmupd
 ```
 
 O'rnatuvchini `/opt` dan emas, `/var/lib/utm` dan yurgizing — o'rnatish

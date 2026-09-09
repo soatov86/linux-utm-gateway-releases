@@ -1,7 +1,7 @@
 {
-  "version": "1.1.52",
-  "file": "utm-update-1.1.52.utmupd",
-  "sha256": "c845132f5efa18854982eb0eadfa6a5af564cf67c8746bdb03163f9a90bad75b",
+  "version": "1.1.53",
+  "file": "utm-update-1.1.53.utmupd",
+  "sha256": "350d313b87bd5a327f06f66d47c2dc879526c13629ace99dec37d6f3400426b3",
   "released": "2026-09-09",
-  "notes": "«Имя сайта» HTTPS filtri standart holatga o'tdi; ISO fayl nomida versiya"
+  "notes": "Teskari proksi uchun aktiv health check; ISO bitta yadro bilan; kanal bitta paketda turadi"
 }
