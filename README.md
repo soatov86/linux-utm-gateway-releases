@@ -128,10 +128,10 @@ every package is already in the image.
   the internet.
 - Panel in **Russian, English and Uzbek**.
 
-An honest, evidence-based feature comparison against pfSense ships with the
-product (`docs/linux-utm-gateway-vs-pfsense.md`), including the places where
-pfSense is still ahead: route-map/prefix-list routing policy, advanced IPv6/VIP
-handling, and its far longer production history.
+A full, evidence-based comparison against pfSense ships **on the appliance**
+(`docs/linux-utm-gateway-vs-pfsense.md`) — the source repository is not public,
+so the gaps it names are reproduced below in
+**[What it does not do](#limits)**. Read that section before the table above.
 
 ---
 
@@ -175,10 +175,10 @@ Suricata, Squid, ClamAV, dnsmasq/Kea, nginx, strongSwan, OpenVPN и WireGuard �
 - **Офлайн-установка и офлайн-обновления** — для сетей без выхода в интернет.
 - Панель на **русском, английском и узбекском**.
 
-Вместе с продуктом поставляется честное сравнение с pfSense
-(`docs/linux-utm-gateway-vs-pfsense.md`) — включая то, где pfSense пока
-впереди: политика маршрутизации (route-map/prefix-list), продвинутая работа с
-IPv6/VIP и куда более длинная история эксплуатации.
+Полное сравнение с pfSense поставляется **на самом устройстве**
+(`docs/linux-utm-gateway-vs-pfsense.md`); репозиторий с исходным кодом закрыт,
+поэтому названные там пробелы вынесены ниже — **[Чего продукт не
+умеет](#limits)**. Прочитайте этот раздел прежде, чем таблицу выше.
 
 ---
 
@@ -224,11 +224,75 @@ ichida.
   tarmoqlar uchun.
 - Panel **rus, ingliz va o'zbek** tillarida.
 
-Mahsulot bilan birga pfSense bilan halol taqqoslash keladi
-(`docs/linux-utm-gateway-vs-pfsense.md`) — pfSense hali oldinda bo'lgan
-joylar ham ko'rsatilgan: marshrutlash siyosati (route-map/prefix-list),
-IPv6/VIP bo'yicha kengaytirilgan boshqaruv va ancha uzoq ekspluatatsiya
-tajribasi.
+pfSense bilan to'liq taqqoslash **qurilmaning o'zida** keladi
+(`docs/linux-utm-gateway-vs-pfsense.md`); manba kod repozitoriysi yopiq,
+shuning uchun u yerdagi bo'shliqlar quyida — **[Nimalarni
+qilmaydi](#limits)**. Yuqoridagi jadvaldan oldin o'sha bo'limni o'qing.
+
+---
+
+<a name="limits"></a>
+## What it does not do · Чего продукт не умеет · Nimalarni qilmaydi
+
+Every product has gaps. These are this one's, taken from the comparison
+document that ships on the appliance — not a shortened version of it.
+
+### 🇬🇧 English
+
+| Gap | Detail |
+|---|---|
+| **Routing policy** | OSPFv2 and BGP work, but there are **no route-maps, prefix-lists or community filters**. If your routing decisions are made by filtering, use pfSense/FRR directly |
+| **Clusters larger than two** | VRRP + conntrackd + the config cluster are designed for **a pair**. Three or more nodes are not supported; pfSense CARP is |
+| **Multi-WAN depth** | Failover and load balancing work, but gateway groups and their diagnostics are far less mature than pfSense's |
+| **Advanced IPv6** | Basic firewall, RA, DHCPv6 and DHCPv6-PD are there. Wide DHCPv6 option sets, downstream delegation pools, tunnel broker/6RD and complex Track Interface handling are not |
+| **IPsec for old clients** | Road-warrior is **IKEv2 only**. No IKEv1, so no Cisco Unity split-include. Windows, macOS, iOS and Android built-in clients are unaffected |
+| **L2TP server** | Not implemented |
+| **SMS authentication** | Not implemented |
+| **FTP antivirus** | Only through the **explicit** proxy — the client must be configured to use it. FTP's data channel is a second connection and cannot be caught transparently |
+| **Full HTTPS decryption** | Requires the gateway CA installed on **every** client, and closes HTTP/3 (QUIC) while inspection is on, or browsers route around it. SNI filtering — the default — has neither cost |
+| **DHCP failover** | Only on the **Kea** engine. On dnsmasq the standby cannot serve DHCP at all; the gap is narrowed by copying the lease file every five minutes, which is not the same thing |
+| **Kea logging** | Kea does not put the client name on the lease line (the name is in the leases table) and does not log a returned lease at INFO |
+| **Platform** | Debian 12 (bookworm), Python 3.11, amd64 — nothing else. Updates carry bytecode bound to that interpreter and refuse to install elsewhere |
+| **Ecosystem** | No package or plugin system, and no third-party community. What ships is what there is |
+| **Source code** | Not public. Only this release channel is |
+
+### 🇷🇺 Русский
+
+| Пробел | Подробности |
+|---|---|
+| **Политика маршрутизации** | OSPFv2 и BGP работают, но **route-map, prefix-list и community-фильтров нет**. Если маршрутные решения принимаются фильтрацией — берите pfSense/FRR |
+| **Кластер больше двух узлов** | VRRP + conntrackd + кластер конфигурации рассчитаны на **пару**. Три и более узлов не поддерживаются, у pfSense CARP — да |
+| **Глубина Multi-WAN** | Резервирование и балансировка есть, но gateway groups и их диагностика заметно менее зрелые, чем в pfSense |
+| **Продвинутый IPv6** | Базовый firewall, RA, DHCPv6 и DHCPv6-PD есть. Широких наборов опций DHCPv6, пулов delegation вниз по сети, tunnel broker/6RD и сложного Track Interface — нет |
+| **IPsec для старых клиентов** | Мобильный доступ **только IKEv2**. IKEv1 нет, значит нет и Cisco Unity split-include. Встроенных клиентов Windows, macOS, iOS и Android это не касается |
+| **Сервер L2TP** | Не реализован |
+| **SMS-аутентификация** | Не реализована |
+| **Антивирус для FTP** | Только через **явный** прокси — клиента нужно на него настроить. Канал данных FTP идёт вторым соединением и прозрачно не перехватывается |
+| **Полная расшифровка HTTPS** | Требует установки CA шлюза на **каждый** клиент и закрывает HTTP/3 (QUIC) на время инспекции, иначе браузеры её обходят. У фильтрации по SNI — режима по умолчанию — этих издержек нет |
+| **Переключение DHCP** | Только на движке **Kea**. На dnsmasq резервный узел вообще не может раздавать адреса; копирование файла аренд раз в пять минут — не замена |
+| **Журнал Kea** | Kea не пишет имя клиента в строке выдачи аренды (имя есть в таблице аренд) и не пишет возврат аренды на уровне INFO |
+| **Платформа** | Debian 12 (bookworm), Python 3.11, amd64 — и ничего больше. Обновления несут байт-код, привязанный к этому интерпретатору, и на другом не устанавливаются |
+| **Экосистема** | Нет системы пакетов и плагинов, нет стороннего сообщества. Есть ровно то, что поставляется |
+| **Исходный код** | Закрыт. Открыт только этот канал обновлений |
+
+### 🇺🇿 Oʻzbekcha
+
+| Bo'shliq | Tafsilot |
+|---|---|
+| **Marshrutlash siyosati** | OSPFv2 va BGP ishlaydi, lekin **route-map, prefix-list va community filtrlari yo'q**. Marshrut qarorlari filtrlash bilan qabul qilinsa — pfSense/FRR ni oling |
+| **Ikkitadan katta klaster** | VRRP + conntrackd + konfiguratsiya klasteri **juftlik** uchun mo'ljallangan. Uch va undan ortiq tugun qo'llab-quvvatlanmaydi, pfSense CARP da esa bor |
+| **Multi-WAN chuqurligi** | Zaxiralash va balanslash bor, lekin gateway groups va uning diagnostikasi pfSense'nikidan ancha sodda |
+| **Kengaytirilgan IPv6** | Asosiy firewall, RA, DHCPv6 va DHCPv6-PD bor. Keng DHCPv6 opsiyalari, quyi tarmoqqa delegation poollari, tunnel broker/6RD va murakkab Track Interface yo'q |
+| **Eski klientlar uchun IPsec** | Mobil kirish **faqat IKEv2**. IKEv1 yo'q, demak Cisco Unity split-include ham yo'q. Windows, macOS, iOS va Android'ning o'rnatilgan klientlariga taalluqli emas |
+| **L2TP serveri** | Amalga oshirilmagan |
+| **SMS autentifikatsiya** | Amalga oshirilmagan |
+| **FTP uchun antivirus** | Faqat **aniq** proksi orqali — mijozni unga sozlash kerak. FTP ma'lumot kanali ikkinchi ulanishda ketadi va shaffof ushlanmaydi |
+| **To'liq HTTPS deshifratsiyasi** | **Har bir** mijozga shlyuz CA sini o'rnatishni talab qiladi va tekshiruv davomida HTTP/3 (QUIC) ni yopadi, aks holda brauzerlar uni chetlab o'tadi. SNI bo'yicha filtrda — standart rejimda — bu xarajatlar yo'q |
+| **DHCP failover** | Faqat **Kea** dvigatelida. dnsmasq'da zaxira tugun umuman manzil bera olmaydi; ijara faylini besh daqiqada bir ko'chirish uning o'rnini bosmaydi |
+| **Kea jurnali** | Kea ijara berish qatorida mijoz nomini yozmaydi (nom ijaralar jadvalida bor) va qaytarilgan ijarani INFO darajasida yozmaydi |
+| **Platforma** | Debian 12 (bookworm), Python 3.11, amd64 — boshqasi yo'q. Yangilanishlar shu interpretatorga bog'langan bayt-kod olib yuradi va boshqasiga o'rnatilmaydi |
+| **Ekotizim** | Paket yoki plagin tizimi yo'q, tashqi hamjamiyat yo'q. Nima yetkazilsa — o'shanigina bor |
+| **Manba kod** | Yopiq. Faqat shu yangilanish kanali ochiq |
 
 ---
 
