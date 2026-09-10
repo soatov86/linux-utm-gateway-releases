@@ -14,6 +14,59 @@ Open-source-style alternative to **pfSense**, **OPNsense**, **Kerio Control**,
 
 🇬🇧 [English](#english) · 🇷🇺 [Русский](#русский) · 🇺🇿 [Oʻzbekcha](#ozbekcha)
 
+> ## ⚠️ Status: early — please read before you deploy
+>
+> **EN.** Linux UTM Gateway is young. Development started in **August 2026**.
+> It runs today on the author's own equipment — a two-node HA pair and a third
+> gateway serving real clients: a live IPsec tunnel, a measured DHCP failover,
+> real Windows workstations — and **274 automated tests** run before every
+> release.
+>
+> What it has **not** had is production use by anybody else. There is no
+> third-party deployment, no installation measured in months rather than weeks,
+> and no independent security audit. Defects are still being found regularly by
+> *running* the product rather than by reading it — several in the past week
+> alone.
+>
+> So: try it in a lab or on a segment you can afford to lose, keep
+> configuration backups (the panel makes them), and do not yet put it in front
+> of a network you cannot take down. If you do run it, tell me what broke —
+> **soatov86@gmail.com**. That is worth more to this project than a star.
+>
+> **RU.** Продукт молодой. Разработка начата в **августе 2026**. Сегодня он
+> работает на оборудовании автора — пара узлов в режиме отказоустойчивости и
+> третий шлюз обслуживают реальных клиентов: живой IPsec-туннель, измеренное
+> переключение DHCP, реальные рабочие станции Windows; перед каждым релизом
+> прогоняются **274 автотеста**.
+>
+> Чего у него **нет** — эксплуатации у кого-то ещё: ни одного стороннего
+> внедрения, ни одной установки, живущей месяцами, ни независимого аудита
+> безопасности. Дефекты по-прежнему находятся регулярно — тем, что продукт
+> *запускают*, а не читают; только за последнюю неделю их было несколько.
+>
+> Поэтому: пробуйте в лаборатории или на сегменте, который не жалко, делайте
+> резервные копии конфигурации (панель умеет), и пока не ставьте его перед
+> сетью, которую нельзя положить. Если всё же поставите — напишите, что
+> сломалось: **soatov86@gmail.com**. Это ценнее звезды на GitHub.
+>
+> **UZ.** Mahsulot yosh. Ishlanma **2026-yil avgustida** boshlangan. Bugun u
+> muallifning o'z jihozida ishlaydi — ikki tugunli HA juftligi va uchinchi
+> shlyuz haqiqiy mijozlarga xizmat qiladi: tirik IPsec tunnel, o'lchangan DHCP
+> failover, haqiqiy Windows ish stantsiyalari; har bir relizdan oldin **274 ta
+> avtotest** yuritiladi.
+>
+> Unda **yo'q** narsa — boshqa birov tomonidan ekspluatatsiya qilinishi: hech
+> qanday tashqi joriy etish, haftalar emas oylar bilan o'lchanadigan
+> o'rnatish, va mustaqil xavfsizlik auditi yo'q. Nuqsonlar hamon muntazam
+> topilmoqda — mahsulotni o'qish bilan emas, **ishlatish** bilan; faqat
+> o'tgan haftaning o'zida bir nechtasi.
+>
+> Shuning uchun: laboratoriyada yoki yo'qotishga achinmaydigan segmentda
+> sinab ko'ring, konfiguratsiya zaxirasini saqlang (panel qiladi), va hozircha
+> uni o'chirib bo'lmaydigan tarmoq oldiga qo'ymang. Agar qo'ysangiz — nima
+> buzilganini yozing: **soatov86@gmail.com**. Bu loyiha uchun yulduzchadan
+> qimmatroq.
+
 This repository is the **update channel**: an installed appliance reads
 `latest.json` here and downloads the signed package when it is newer than what
 it runs. Only released packages live here; the source code is elsewhere.
