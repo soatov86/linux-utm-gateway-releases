@@ -1,7 +1,7 @@
 {
-  "version": "1.1.53",
-  "file": "utm-update-1.1.53.utmupd",
-  "sha256": "350d313b87bd5a327f06f66d47c2dc879526c13629ace99dec37d6f3400426b3",
-  "released": "2026-09-09",
-  "notes": "Teskari proksi uchun aktiv health check; ISO bitta yadro bilan; kanal bitta paketda turadi"
+  "version": "1.1.54",
+  "file": "utm-update-1.1.54.utmupd",
+  "sha256": "01377177ba4c3f32dd441136e5baedd54bee426aab2b1ea8e731e1042acf49cd",
+  "released": "2026-09-10",
+  "notes": "Primenit endi dnsmasq bosqichida yiqilmaydi (UnboundLocalError). HA zaxira tuguni IPsec uchun bejiz «xato» ko'rsatmaydi, keepalived esa ishlayotgan juftlikda «o'chirilgan» deb turmaydi."
 }
