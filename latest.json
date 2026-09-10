@@ -1,7 +1,7 @@
 {
-  "version": "1.1.54",
-  "file": "utm-update-1.1.54.utmupd",
-  "sha256": "01377177ba4c3f32dd441136e5baedd54bee426aab2b1ea8e731e1042acf49cd",
+  "version": "1.1.55",
+  "file": "utm-update-1.1.55.utmupd",
+  "sha256": "8a215fe15e102e92e8b100ad4924be88f5edb2081a1d195945bfa8d43e922199",
   "released": "2026-09-10",
-  "notes": "Primenit endi dnsmasq bosqichida yiqilmaydi (UnboundLocalError). HA zaxira tuguni IPsec uchun bejiz «xato» ko'rsatmaydi, keepalived esa ishlayotgan juftlikda «o'chirilgan» deb turmaydi."
+  "notes": "Kerio Control zaxira nusxasidan migratsiya sahifasi: foydalanuvchilar, DNS yozuvlari, marshrutlar, URL guruhlari, vaqt intervallari va xizmatlarni tanlab import qilish. Ogohlantirishlar sahifasi endi takrorlarni yig'adi."
 }
