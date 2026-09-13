@@ -1,7 +1,7 @@
 {
-  "version": "1.1.55",
-  "file": "utm-update-1.1.55.utmupd",
-  "sha256": "8a215fe15e102e92e8b100ad4924be88f5edb2081a1d195945bfa8d43e922199",
-  "released": "2026-09-10",
-  "notes": "Kerio Control zaxira nusxasidan migratsiya sahifasi: foydalanuvchilar, DNS yozuvlari, marshrutlar, URL guruhlari, vaqt intervallari va xizmatlarni tanlab import qilish. Ogohlantirishlar sahifasi endi takrorlarni yig'adi."
+  "version": "1.1.56",
+  "file": "utm-update-1.1.56.utmupd",
+  "sha256": "04cd2723521340463be6b7f2aa1427999620949bdb0767e7fba1fc2438b83f86",
+  "released": "2026-09-13",
+  "notes": "Statik marshrutlarni tahrirlash, galochka bilan yoqib-o'chirish va interfeysni shu shlyuzdagilar ro'yxatidan tanlash. Qo'shish va tahrirlash bitta tekshiruvdan o'tadi."
 }
