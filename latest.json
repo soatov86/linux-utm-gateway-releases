@@ -1,7 +1,7 @@
 {
-  "version": "1.1.56",
-  "file": "utm-update-1.1.56.utmupd",
-  "sha256": "04cd2723521340463be6b7f2aa1427999620949bdb0767e7fba1fc2438b83f86",
+  "version": "1.1.57",
+  "file": "utm-update-1.1.57.utmupd",
+  "sha256": "c63739489e7fe42cb675e246f1a3db6aff672062b89357bf31078596491bfb39",
   "released": "2026-09-13",
-  "notes": "Statik marshrutlarni tahrirlash, galochka bilan yoqib-o'chirish va interfeysni shu shlyuzdagilar ro'yxatidan tanlash. Qo'shish va tahrirlash bitta tekshiruvdan o'tadi."
+  "notes": "Foydalanuvchilarni ko'p tanlab o'chirish (satrlarda galochka, sarlavhada hammasini tanlash). «Заводские настройки» — sozlamalarni tozalash, tarmoq sozlamalari va panelga kirishni saqlab qolgan holda, oldin zaxira olib. Yo'l-yo'lakay: «Отключить пользователей» ishlamayotgani tuzatildi."
 }
