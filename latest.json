@@ -1,7 +1,7 @@
 {
-  "version": "1.1.57",
-  "file": "utm-update-1.1.57.utmupd",
-  "sha256": "c63739489e7fe42cb675e246f1a3db6aff672062b89357bf31078596491bfb39",
-  "released": "2026-09-13",
-  "notes": "Foydalanuvchilarni ko'p tanlab o'chirish (satrlarda galochka, sarlavhada hammasini tanlash). «Заводские настройки» — sozlamalarni tozalash, tarmoq sozlamalari va panelga kirishni saqlab qolgan holda, oldin zaxira olib. Yo'l-yo'lakay: «Отключить пользователей» ishlamayotgani tuzatildi."
+  "version": "1.1.58",
+  "file": "utm-update-1.1.58.utmupd",
+  "sha256": "49c7c25cf9505a076344b1e338ae2c8d0256ce5f2e1643115d7720643a53c726",
+  "released": "2026-09-14",
+  "notes": "Kerio Control zaxira nusxasidan IP-manzil guruhlarini import qilish: manzillar, tarmoqlar, diapazonlar va host nomlari; bir xil nomli yozuvlar bitta guruhga yig'iladi."
 }
