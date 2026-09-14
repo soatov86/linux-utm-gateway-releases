@@ -1,7 +1,7 @@
 {
-  "version": "1.1.61",
-  "file": "utm-update-1.1.61.utmupd",
-  "sha256": "65a5000384c63051863f6a3b0cd65620122be32afdf3572963075c71a0e062fc",
+  "version": "1.1.62",
+  "file": "utm-update-1.1.62.utmupd",
+  "sha256": "67bf052ebe9f5cb08d7892b9761a6d324fb230a5847cc0b30829d24464d0c0df",
   "released": "2026-09-14",
-  "notes": "DHCP sahifasi: «Резервирования вне областей» bo'limi endi taxminan 6 satr balandlikda qoladi va ichida aylanadi, doiralar va ijaralar jadvallari siqilib qolmaydi."
+  "notes": "«Заводские настройки»: interfeyslar va ularning manzillari saqlanadi, tozalash darhol qo'llanadi, tasdiqlash oynasi nima o'chishi va nima qolishini aniq yozadi, HA juftligidagi tugunda VIP va sherik haqida ogohlantiradi."
 }
