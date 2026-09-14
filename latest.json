@@ -1,7 +1,7 @@
 {
-  "version": "1.1.60",
-  "file": "utm-update-1.1.60.utmupd",
-  "sha256": "c82f52e68a9c71c508ccdad9cd004e7ebb4f727abf2bae0fe409e8482db4da51",
+  "version": "1.1.61",
+  "file": "utm-update-1.1.61.utmupd",
+  "sha256": "65a5000384c63051863f6a3b0cd65620122be32afdf3572963075c71a0e062fc",
   "released": "2026-09-14",
-  "notes": "DHCP: hech bir doiraga tushmaydigan bandlashlar endi «Резервирования вне областей» bo'limida ko'rinadi va bir amalda o'chiriladi; doira tarmog'i ichida, lekin puldan tashqaridagi bandlashlar ham doira ostida ko'rsatiladi. Kerio importi doirasi yo'q bandlashlarni kiritmaydi va sababini aytadi."
+  "notes": "DHCP sahifasi: «Резервирования вне областей» bo'limi endi taxminan 6 satr balandlikda qoladi va ichida aylanadi, doiralar va ijaralar jadvallari siqilib qolmaydi."
 }
