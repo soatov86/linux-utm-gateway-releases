@@ -1,7 +1,7 @@
 {
-  "version": "1.1.59",
-  "file": "utm-update-1.1.59.utmupd",
-  "sha256": "06d277dea9d29de549cd0ebe5672f6c4f17bbd8cebd1937c16a31fb5be27603d",
+  "version": "1.1.60",
+  "file": "utm-update-1.1.60.utmupd",
+  "sha256": "c82f52e68a9c71c508ccdad9cd004e7ebb4f727abf2bae0fe409e8482db4da51",
   "released": "2026-09-14",
-  "notes": "DNS yozuvlarini sichqoncha bilan ko'p tanlash (Ctrl va Shift) va bir amalda o'chirish. Kerio Control zaxirasidan DHCP importi: doiralar (pul, maska, lease, shlyuz, DNS va pul istisnolari) hamda bandlashlar."
+  "notes": "DHCP: hech bir doiraga tushmaydigan bandlashlar endi «Резервирования вне областей» bo'limida ko'rinadi va bir amalda o'chiriladi; doira tarmog'i ichida, lekin puldan tashqaridagi bandlashlar ham doira ostida ko'rsatiladi. Kerio importi doirasi yo'q bandlashlarni kiritmaydi va sababini aytadi."
 }
