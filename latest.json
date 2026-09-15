@@ -1,7 +1,7 @@
 {
-  "version": "1.1.62",
-  "file": "utm-update-1.1.62.utmupd",
-  "sha256": "67bf052ebe9f5cb08d7892b9761a6d324fb230a5847cc0b30829d24464d0c0df",
-  "released": "2026-09-14",
-  "notes": "«Заводские настройки»: interfeyslar va ularning manzillari saqlanadi, tozalash darhol qo'llanadi, tasdiqlash oynasi nima o'chishi va nima qolishini aniq yozadi, HA juftligidagi tugunda VIP va sherik haqida ogohlantiradi."
+  "version": "1.1.63",
+  "file": "utm-update-1.1.63.utmupd",
+  "sha256": "8244620328749a576fa9477e99ddbbc3ea08bf32dfc20942bf768009ad8f822c",
+  "released": "2026-09-15",
+  "notes": "Kerio importi: trafik qoidalari (o'chirilgan holda) va xizmatlar qamrovi kengaydi (TCP+UDP, ICMP). DNS muharriri: tanlov va holat boshqaruvlari ajratildi, yoqib-o'chirishda oyna yopilmaydi. «Применить» tugmasi migratsiya va web-filtr sahifalarida qo'llash kerak bo'lganda faol bo'ladi."
 }
