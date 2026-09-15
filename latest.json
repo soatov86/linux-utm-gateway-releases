@@ -1,7 +1,7 @@
 {
-  "version": "1.1.63",
-  "file": "utm-update-1.1.63.utmupd",
-  "sha256": "8244620328749a576fa9477e99ddbbc3ea08bf32dfc20942bf768009ad8f822c",
+  "version": "1.1.64",
+  "file": "utm-update-1.1.64.utmupd",
+  "sha256": "c21e53f0b298966073afdfc13bb71a922f999f6624106875f524bc5416f37fdf",
   "released": "2026-09-15",
-  "notes": "Kerio importi: trafik qoidalari (o'chirilgan holda) va xizmatlar qamrovi kengaydi (TCP+UDP, ICMP). DNS muharriri: tanlov va holat boshqaruvlari ajratildi, yoqib-o'chirishda oyna yopilmaydi. «Применить» tugmasi migratsiya va web-filtr sahifalarida qo'llash kerak bo'lganda faol bo'ladi."
+  "notes": "Kerio importidan keyin «Применить» bosilganda «Method Not Allowed» chiqishi tuzatildi: qo'llash endi GET bilan ochiladigan sahifaga qaytadi."
 }
