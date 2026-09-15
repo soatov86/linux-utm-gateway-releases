@@ -1,7 +1,7 @@
 {
-  "version": "1.1.65",
-  "file": "utm-update-1.1.65.utmupd",
-  "sha256": "7df9d27529f19716ecc5624a7ce03e4d390ef16ef1deab818daf30eaf105029f",
+  "version": "1.1.66",
+  "file": "utm-update-1.1.66.utmupd",
+  "sha256": "05997bec87d43108318e92f2f16e4dbfa87156c168f19e70f990bab81b67e3e0",
   "released": "2026-09-15",
-  "notes": "Xizmatlar sahifasi: qidiruv, tahrirlash (tugma va ikki marta bosish), yoqib-o'chirish switch'i va dublikat xizmatlarning oldini olish. Zavod tozalashi endi SSH yopilishi haqida ogohlantiradi, admin qoidasining tavsifi esa u haqiqatan ochadigan portni aytadi. Zero-configuration Networking ro'yxati interfeyslar soniga qarab o'lchanadi."
+  "notes": "Журналы: единое хранилище логов с поиском по всей истории, таблица с закреплёнными заголовками и фильтрами по колонкам, экспорт в Excel и очистка"
 }
