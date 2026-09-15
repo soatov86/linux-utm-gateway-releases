@@ -1,7 +1,7 @@
 {
-  "version": "1.1.64",
-  "file": "utm-update-1.1.64.utmupd",
-  "sha256": "c21e53f0b298966073afdfc13bb71a922f999f6624106875f524bc5416f37fdf",
+  "version": "1.1.65",
+  "file": "utm-update-1.1.65.utmupd",
+  "sha256": "7df9d27529f19716ecc5624a7ce03e4d390ef16ef1deab818daf30eaf105029f",
   "released": "2026-09-15",
-  "notes": "Kerio importidan keyin «Применить» bosilganda «Method Not Allowed» chiqishi tuzatildi: qo'llash endi GET bilan ochiladigan sahifaga qaytadi."
+  "notes": "Xizmatlar sahifasi: qidiruv, tahrirlash (tugma va ikki marta bosish), yoqib-o'chirish switch'i va dublikat xizmatlarning oldini olish. Zavod tozalashi endi SSH yopilishi haqida ogohlantiradi, admin qoidasining tavsifi esa u haqiqatan ochadigan portni aytadi. Zero-configuration Networking ro'yxati interfeyslar soniga qarab o'lchanadi."
 }
