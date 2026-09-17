@@ -1,7 +1,7 @@
 {
-  "version": "1.1.69",
-  "file": "utm-update-1.1.69.utmupd",
-  "sha256": "0543d4f11fc86d7f9ac0019dc56b1c9696489a9d8c57c4cb6ed1ae6e7f2ee17b",
+  "version": "1.1.70",
+  "file": "utm-update-1.1.70.utmupd",
+  "sha256": "8061f3e94266dd57b1fc06b3232994dd85283dab0f7be6c8e193468d7aa9b7c1",
   "released": "2026-09-17",
-  "notes": "Оповещения: сигнал, когда включённый IPsec-туннель не поднимается; HA: узел со остановленным keepalived снимает свои туннели"
+  "notes": "Sekinlik: logs sahifasini to'rtta marta emas, bir marta o'qiy"
 }
