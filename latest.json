@@ -1,7 +1,7 @@
 {
-  "version": "1.1.70",
-  "file": "utm-update-1.1.70.utmupd",
-  "sha256": "8061f3e94266dd57b1fc06b3232994dd85283dab0f7be6c8e193468d7aa9b7c1",
-  "released": "2026-09-17",
-  "notes": "Sekinlik: logs sahifasini to'rtta marta emas, bir marta o'qiy"
+  "version": "1.1.71",
+  "file": "utm-update-1.1.71.utmupd",
+  "sha256": "8ca783288e922c89d2887e4c15624773b2fb9ceb3ecd2cb5c038f276d93b7a70",
+  "released": "2026-09-22",
+  "notes": "Jurnal: «Barcha jurnallar» sahifasi tez ochiladi va hajm chegarasiga yetganda jurnal yozuvi uzilmaydi. VPN: juftlikda mijozlar failoverdan keyin virtual manzilda qoladi, server kaliti zaxira tugunga o'qiladigan holda yetadi, sirlar bazada shifrlangan saqlanadi va zaxiradan tiklashda ochilmaganlari nomma-nom aytiladi. Kontent: 8000/8008/8888 portlaridagi HTTP ham tekshiriladi, bloklangan sayt endi sabab yozilgan sahifani ko'rsatadi. Ogohlantirishlar: yoqilgan, lekin ko'tarilmayotgan VPN tunneli va BGP qo'shnisi haqida xabar beriladi."
 }
