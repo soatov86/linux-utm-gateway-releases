@@ -1,7 +1,7 @@
 {
-  "version": "1.1.72",
-  "file": "utm-update-1.1.72.utmupd",
-  "sha256": "ecbfa3f2d4c635eefbf2583447d317441563285e56bca3f90f66f6453f8c504e",
+  "version": "1.1.73",
+  "file": "utm-update-1.1.73.utmupd",
+  "sha256": "ede6ce0aca953cdd19d02988ed634b26f971b339d2f01f5b38790fee1b4380da",
   "released": "2026-09-23",
-  "notes": "Jonli sinovlarda topilgan nuqsonlar tuzatildi: Kea DHCP mijoz nomlari DNSda ijaralar bazasidan yangilanadi (zaxira tugunda ham, manzil almashganda ham); port yo'naltirish faqat shlyuzning o'z manziliga; kontent filtri blok sahifasi va jadvali; zaxira tugun sinxronlangan sozlamani darhol qo'llaydi; trafik qoidalari jadvali ishlaydi; o'chirilgan statik marshrutlar yadrodan ham olib tashlanadi; antivirus katta fayllarni tekshiradi; teskari proksi IP orqali so'rovga 404 qaytaradi, Squid shlyuz DNSidan foydalanadi; captive portal kirishdan oldin HTTPSni o'tkazmaydi; IKEv2 sertifikati serverAuth EKU bilan, failoverda zaxira tugun IKEv2 seanslarini yopadi; OpenVPN multihome; ulanishlar chegarasi tuzatildi; kirill email mavzularida bo'shliqlar yo'qolmaydi; DNS xost nomlari o'zgarganda DNS uzilmaydi (SIGHUP)."
+  "notes": "Jonli sinovlarda topilgan nuqsonlar tuzatildi: majburiy xavfsiz qidiruv endi mobil YouTube, YouTube ilovalari, Google va Yandex ning mintaqaviy domenlarini ham qamraydi; taqiqlangan so'zlar filtri so'zlarni butunicha sanaydi (zararsiz qidiruvlar bloklanmaydi) va o'z rad etish sahifasini ko'rsatadi; antivirus bloklash sahifasi har doim panel tilida (ru/en/uz), tahdid nomi ixtiyoriy; yangi mahalliy CA tushunarli nom bilan yaratiladi; ishlamaydigan «неверно классифицированных URL» katagi olib tashlandi."
 }
