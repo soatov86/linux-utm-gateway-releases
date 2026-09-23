@@ -1,7 +1,7 @@
 {
-  "version": "1.1.71",
-  "file": "utm-update-1.1.71.utmupd",
-  "sha256": "8ca783288e922c89d2887e4c15624773b2fb9ceb3ecd2cb5c038f276d93b7a70",
-  "released": "2026-09-22",
-  "notes": "Jurnal: «Barcha jurnallar» sahifasi tez ochiladi va hajm chegarasiga yetganda jurnal yozuvi uzilmaydi. VPN: juftlikda mijozlar failoverdan keyin virtual manzilda qoladi, server kaliti zaxira tugunga o'qiladigan holda yetadi, sirlar bazada shifrlangan saqlanadi va zaxiradan tiklashda ochilmaganlari nomma-nom aytiladi. Kontent: 8000/8008/8888 portlaridagi HTTP ham tekshiriladi, bloklangan sayt endi sabab yozilgan sahifani ko'rsatadi. Ogohlantirishlar: yoqilgan, lekin ko'tarilmayotgan VPN tunneli va BGP qo'shnisi haqida xabar beriladi."
+  "version": "1.1.72",
+  "file": "utm-update-1.1.72.utmupd",
+  "sha256": "ecbfa3f2d4c635eefbf2583447d317441563285e56bca3f90f66f6453f8c504e",
+  "released": "2026-09-23",
+  "notes": "Jonli sinovlarda topilgan nuqsonlar tuzatildi: Kea DHCP mijoz nomlari DNSda ijaralar bazasidan yangilanadi (zaxira tugunda ham, manzil almashganda ham); port yo'naltirish faqat shlyuzning o'z manziliga; kontent filtri blok sahifasi va jadvali; zaxira tugun sinxronlangan sozlamani darhol qo'llaydi; trafik qoidalari jadvali ishlaydi; o'chirilgan statik marshrutlar yadrodan ham olib tashlanadi; antivirus katta fayllarni tekshiradi; teskari proksi IP orqali so'rovga 404 qaytaradi, Squid shlyuz DNSidan foydalanadi; captive portal kirishdan oldin HTTPSni o'tkazmaydi; IKEv2 sertifikati serverAuth EKU bilan, failoverda zaxira tugun IKEv2 seanslarini yopadi; OpenVPN multihome; ulanishlar chegarasi tuzatildi; kirill email mavzularida bo'shliqlar yo'qolmaydi; DNS xost nomlari o'zgarganda DNS uzilmaydi (SIGHUP)."
 }
