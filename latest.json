@@ -1,7 +1,7 @@
 {
-  "version": "1.1.76",
-  "file": "utm-update-1.1.76.utmupd",
-  "sha256": "ae69cbbf1a19aa77c8a4578cc5aa82778338bef1482ecabf2f1c8e23f76fdb7a",
+  "version": "1.1.77",
+  "file": "utm-update-1.1.77.utmupd",
+  "sha256": "c7b1e45f12532f18a42e75aac708104d9c36a750259b0b94c4b21f3819677360",
   "released": "2026-09-24",
-  "notes": "Jonli sinovlarda topilgan nuqsonlar tuzatildi: xost jurnali endi faol lekin tinch turgan kompyuterni «ketdi» deb yozmaydi (15 daqiqa ko'rinmasa), zaxira tugun jurnal yozmaydi; SNMP yoqilganda LAN dagi monitoring stansiyasiga javob beradi (WAN ga yopiq) va standart «public» community o'chirildi."
+  "notes": "Jonli sinovda topilgan muhim nuqson tuzatildi: trafik hisobi qisqa ulanishlarni ko'rmas edi (5 × 10 MB yuklashdan faqat 20% hisobga tushardi). Endi har bir mijoz IP si uchun nftables hisoblagichlari ishlatiladi — o'sha sinovda 100%. Kvotalar va e-pochta hisobotlari endi to'g'ri raqamga tayanadi."
 }
