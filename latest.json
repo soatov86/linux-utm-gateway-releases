@@ -1,7 +1,7 @@
 {
-  "version": "1.1.78",
-  "file": "utm-update-1.1.78.utmupd",
-  "sha256": "617634660348eabd396287851947530f8079c749e0edab662a8c9be53025af85",
+  "version": "1.1.79",
+  "file": "utm-update-1.1.79.utmupd",
+  "sha256": "bb6523a21af64e4518d92c821ec73d80e057b5a7b8a5dfd9ec99d6852212c98f",
   "released": "2026-09-24",
-  "notes": "Jonli sinovda topilgan nuqson tuzatildi: «Учёт и квоты» sahifasidagi kvotalar endi tugaganda trafikni bloklaydi (avval faqat foiz ko'rsatardi), proksi orqali ham; IP guruhi kvotasi guruh tarmog'ini bloklaydi; kvota qo'shilganda yoki o'chirilganda Apply eslatiladi."
+  "notes": "Jonli sinovda topilgan nuqson tuzatildi: foydalanuvchi kartochkasidagi «Оповещать пользователя по электронной почте о превышении квоты» endi ishlaydi — kvota tugaganda foydalanuvchiga davr uchun bir marta xat yuboriladi (zaxira tugun yubormaydi)."
 }
