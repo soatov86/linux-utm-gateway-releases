@@ -1,7 +1,7 @@
 {
-  "version": "1.1.74",
-  "file": "utm-update-1.1.74.utmupd",
-  "sha256": "8800d69e19cf206c58d0ee3820870e10fb51dcbc4bdf53305785b6c19a44004a",
-  "released": "2026-09-23",
-  "notes": "Jonli sinovlarda topilgan nuqsonlar tuzatildi: GeoIP filtri endi faqat tanlangan davlatlardan ochilgan ulanishlarni bloklaydi (LAN dan o'sha davlatlardagi saytlarga chiqish uzilmaydi); qora ro'yxatlarni tekshirishda javob bermagan ro'yxat «нет ответа» deb ko'rsatiladi, yopilgan SORBS olib tashlandi; teskari proksi backend tekshiruvi oralig'i kamida 10 soniya."
+  "version": "1.1.75",
+  "file": "utm-update-1.1.75.utmupd",
+  "sha256": "48c622c2ecf955883db613b4bf1af6f94c3e34770600eac52f72833af9fd1c97",
+  "released": "2026-09-24",
+  "notes": "Jonli sinovlarda topilgan nuqson tuzatildi: 1:1 NAT tashqi manzili endi shlyuz tomonidan e'lon qilinadi (HA juftligida keepalived VIP yonida, yakka shlyuzda WAN interfeysida) — avval bog'langan xost proksisiz tashqi aloqani yo'qotardi va tashqaridan unga ulanib bo'lmasdi."
 }
