@@ -1,7 +1,7 @@
 {
-  "version": "1.1.82",
-  "file": "utm-update-1.1.82.utmupd",
-  "sha256": "ef133b39fb032f15c6524a40bf22b52a978bd91e4b782d4b8489f4260a29ff38",
+  "version": "1.1.83",
+  "file": "utm-update-1.1.83.utmupd",
+  "sha256": "f3ee2a1a786435b68c714e13e7ce783b18b76a09b94d6c794275b79e58617958",
   "released": "2026-09-25",
-  "notes": "Tuzatishlar: «высокая нагрузка» endi CPU bandligi bo'yicha aniqlanadi (disk kutish yuklama hisoblanmaydi) — ulanishlar ro'yxati, tunnel holati va faol xostlar keraksiz yashirilmaydi; «Интерфейсы» sahifasida ro'yxat tugmalar paneligacha cho'ziladi; zaxira tugunda sayt-sayt IPsec tunneli qizil «—» emas, «Резерв» deb ko'rsatiladi."
+  "notes": "Muhim tuzatish: IPS (Suricata) o'zi tahlil qila olmagan ulanishni (tushunmagan protokol, yuklamada xotira chegarasi to'lishi) endi jim uzmaydi — tekshiruvsiz o'tkazadi; imzoga mos zararli trafik avvalgidek bloklanadi. Avval bunday ulanishlar ogohlantirishsiz uzilardi, bu yuklama paytida ulanishlar va tunnellar uzilishining ehtimoliy sababi edi."
 }
