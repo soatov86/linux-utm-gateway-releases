@@ -1,7 +1,7 @@
 {
-  "version": "1.1.80",
-  "file": "utm-update-1.1.80.utmupd",
-  "sha256": "7c88d1dd41e0e640c03694a5eb055ff6d8de016a443a27c0f1e0e0dd430e45b8",
-  "released": "2026-09-24",
-  "notes": "Jonli sinovda topilgan muhim nuqson tuzatildi: qayta yuklangan HA tuguni keepalived FAULT holatida qolib ketardi (juftlik zaxirasiz qolardi) va yuklanishda VIP manzilni LAN ga o'zi qo'yardi. Endi tugun manzillari keepalived dan oldin qo'yiladi, VIP ni faqat keepalived boshqaradi."
+  "version": "1.1.81",
+  "file": "utm-update-1.1.81.utmupd",
+  "sha256": "8d94dccc795fad76f85137b9ba9bfa112c532173dbdba4c7687b153374127117",
+  "released": "2026-09-25",
+  "notes": "Jonli sinovlarda topilgan nuqsonlar tuzatildi: yuklamada VPN tunnellar holati «—» ko'rinmaydi; trafik qoidalari proksi orqali o'tgan veb-trafikka ham amal qiladi (shaffof va aniq proksi); IP orqali DoH bloklanadi; «Непрозрачный прокси» yoqilganda LAN veb-trafigi buzilmaydi; qisqa TTL li CDN saytlar (bing va b.) HTTPS da tasodifiy ochilmay qolmaydi; foydalanuvchiga xos kontent qoidasi uning DNS ini o'chirmaydi; URL andozalari butun URL ga mos keladi va ro'yxat o'zgarganda proksi yangilanadi; pochta antivirusi virusli ilovani olib tashlaydi; yuklanishda WAN DHCP ijarasi olinmaydi."
 }
