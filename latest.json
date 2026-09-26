@@ -1,7 +1,7 @@
 {
-  "version": "1.1.83",
-  "file": "utm-update-1.1.83.utmupd",
-  "sha256": "f3ee2a1a786435b68c714e13e7ce783b18b76a09b94d6c794275b79e58617958",
-  "released": "2026-09-25",
-  "notes": "Muhim tuzatish: IPS (Suricata) o'zi tahlil qila olmagan ulanishni (tushunmagan protokol, yuklamada xotira chegarasi to'lishi) endi jim uzmaydi — tekshiruvsiz o'tkazadi; imzoga mos zararli trafik avvalgidek bloklanadi. Avval bunday ulanishlar ogohlantirishsiz uzilardi, bu yuklama paytida ulanishlar va tunnellar uzilishining ehtimoliy sababi edi."
+  "version": "1.1.84",
+  "file": "utm-update-1.1.84.utmupd",
+  "sha256": "dd2470a79e9c45ed5e85bad798ec8c8f1fee727f0e0a2932cc36582432e8e7d3",
+  "released": "2026-09-26",
+  "notes": "UPnP ISO ga qo'shildi va ishlaydi; antivirus dvigateli ishlamasa trafik tekshiruvsiz o'tadi; qayta o'qiladigan parollar shifrlandi; DNSSEC provayder imzolarni o'tkazmasa yoqilmaydi; DoT Cloudflare tartibida; BGP faqat kiruvchi siyosat bilan e'lon qilmasligi tuzatildi; ulanish chegaralari istisnosi va ogohlantirishlari; firewall bloklashlari «Фильтр» jurnalida; GeoIP qidiruvi, IP vositalari, DHCP-only, Kea bitta javob; sahifalar ixchamlashtirildi, «База данных» tabida jurnallar bazasi"
 }
