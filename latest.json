@@ -1,7 +1,7 @@
 {
-  "version": "1.1.84",
-  "file": "utm-update-1.1.84.utmupd",
-  "sha256": "dd2470a79e9c45ed5e85bad798ec8c8f1fee727f0e0a2932cc36582432e8e7d3",
-  "released": "2026-09-26",
-  "notes": "UPnP ISO ga qo'shildi va ishlaydi; antivirus dvigateli ishlamasa trafik tekshiruvsiz o'tadi; qayta o'qiladigan parollar shifrlandi; DNSSEC provayder imzolarni o'tkazmasa yoqilmaydi; DoT Cloudflare tartibida; BGP faqat kiruvchi siyosat bilan e'lon qilmasligi tuzatildi; ulanish chegaralari istisnosi va ogohlantirishlari; firewall bloklashlari «Фильтр» jurnalida; GeoIP qidiruvi, IP vositalari, DHCP-only, Kea bitta javob; sahifalar ixchamlashtirildi, «База данных» tabida jurnallar bazasi"
+  "version": "1.1.85",
+  "file": "utm-update-1.1.85.utmupd",
+  "sha256": "f9870c6b97b01e0e87f9e65602b02d863bc7d2c12b9f1badb9a0205e019d3b9c",
+  "released": "2026-09-27",
+  "notes": "Fixes since 1.1.84: accounting skips gateways; boot apply no longer waits on units; IPsec tunnel recovers after far-end reboot; mDNS over VPN; OpenVPN CRL checking; disabled users dropped from OpenVPN, IKEv2, captive portal and panel sessions; password change ends old panel sessions; backup restore refuses links and archives over 2 GB; Kerio import size cap."
 }
