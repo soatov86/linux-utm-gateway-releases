@@ -1,7 +1,7 @@
 {
-  "version": "1.1.85",
-  "file": "utm-update-1.1.85.utmupd",
-  "sha256": "f9870c6b97b01e0e87f9e65602b02d863bc7d2c12b9f1badb9a0205e019d3b9c",
-  "released": "2026-09-27",
-  "notes": "Fixes since 1.1.84: accounting skips gateways; boot apply no longer waits on units; IPsec tunnel recovers after far-end reboot; mDNS over VPN; OpenVPN CRL checking; disabled users dropped from OpenVPN, IKEv2, captive portal and panel sessions; password change ends old panel sessions; backup restore refuses links and archives over 2 GB; Kerio import size cap."
+  "version": "1.1.86",
+  "file": "utm-update-1.1.86.utmupd",
+  "sha256": "904d2bfb5ccae3485eb2544718e7cf957fb2131afb0910d15c15d862faeee262",
+  "released": "2026-09-28",
+  "notes": "Fixes since 1.1.85: rule checker and connection attribution read real interface prefixes (/21 LANs); logged-in users of disabled or deleted accounts close on the next cycle; port mappings reflect for LAN clients (hairpin); disk usage matches df; traffic charts keep bursts between points; QoS default class leaves room for reserves so the line cap holds; virus alerts name the client and URL; virus, link and tunnel-change alerts are no longer dropped by the six-hour repeat interval."
 }

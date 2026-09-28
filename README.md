@@ -75,10 +75,10 @@ it runs. Only released packages live here; the source code is elsewhere.
 
 | | |
 |---|---|
-| Versiya | **1.1.85** |
-| Fayl | `utm-update-1.1.85.utmupd` |
-| Chiqarilgan | 2026-09-27 |
-| SHA256 | `f9870c6b97b01e0e87f9e65602b02d863bc7d2c12b9f1badb9a0205e019d3b9c` |
+| Versiya | **1.1.86** |
+| Fayl | `utm-update-1.1.86.utmupd` |
+| Chiqarilgan | 2026-09-28 |
+| SHA256 | `904d2bfb5ccae3485eb2544718e7cf957fb2131afb0910d15c15d862faeee262` |
 
 > This table is written by the release script. It is deliberately the **only**
 > copy in this file — three translated copies would drift apart the way two
@@ -403,19 +403,19 @@ Kanal ishlamasa yoki qurilmada internet bo'lmasa.
 Paketni oling:
 
 ```bash
-curl -fLO https://raw.githubusercontent.com/soatov86/linux-utm-gateway-releases/main/utm-update-1.1.85.utmupd
+curl -fLO https://raw.githubusercontent.com/soatov86/linux-utm-gateway-releases/main/utm-update-1.1.86.utmupd
 ```
 
 `latest.json` dagi digest bilan solishtiring:
 
 ```bash
-sha256sum utm-update-1.1.85.utmupd
+sha256sum utm-update-1.1.86.utmupd
 ```
 
 Qurilmaga ko'chiring va o'rnatishga qo'ying:
 
 ```bash
-sudo mkdir -p /var/lib/utm/updates && sudo install -m600 -o root -g root utm-update-1.1.85.utmupd /var/lib/utm/updates/pending.utmupd
+sudo mkdir -p /var/lib/utm/updates && sudo install -m600 -o root -g root utm-update-1.1.86.utmupd /var/lib/utm/updates/pending.utmupd
 ```
 
 O'rnatuvchini `/opt` dan emas, `/var/lib/utm` dan yurgizing — o'rnatish
