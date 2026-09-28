@@ -1,7 +1,7 @@
 {
-  "version": "1.1.88",
-  "file": "utm-update-1.1.88.utmupd",
-  "sha256": "5983f84f0717fde13a5f62ba0d40db75cb49d2ec91c681f657dc9b98836d9c5d",
+  "version": "1.1.89",
+  "file": "utm-update-1.1.89.utmupd",
+  "sha256": "647e425eed2797cec6ff18c2294b62cf9cccad67e9cd8524eb13266abd8c873c",
   "released": "2026-09-28",
-  "notes": "Fixes since 1.1.87: connections list shows the exact TCP state (CLOSE_WAIT, FIN_WAIT, LAST_ACK) and host names without Kea's trailing dot; host name and time zone are validated before saving; the UT1 page no longer asks for Apply when the category files are already current."
+  "notes": "Fixes since 1.1.88: a WireGuard site-to-site tunnel's listen port is opened on every box, so passive tunnels come up on configured gateways; the exception group's numbers on the security page line up with the rows above."
 }
