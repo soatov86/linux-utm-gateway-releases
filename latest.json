@@ -1,7 +1,7 @@
 {
-  "version": "1.1.91",
-  "file": "utm-update-1.1.91.utmupd",
-  "sha256": "b2226e1c168b2af1f13827bda2f80581991d6d160951fd370c402623522f9ad7",
+  "version": "1.1.92",
+  "file": "utm-update-1.1.92.utmupd",
+  "sha256": "cbb3cb4d2ca1d664c49f49fc1cced24339224f42bdfd7ac7456792a03f285967",
   "released": "2026-09-29",
-  "notes": "Windows IKEv2: panel va portal Windows uchun PowerShell buyrug'ini ko'rsatadi (13868 xatosi); IPv6: DHCPv6 javoblari qabul qilinadi, PD /64 larda gateway manzili; AD: domen gateway'ning dnsmasq orqali resolv qilinadi; RADIUS: clients.d yuklanadi va o'zgarishda qayta ishga tushadi; proksi AD autentifikatsiyasi LDAPS bilan; 2FA: QR bo'lmasa kalit ko'rsatiladi, xatolar tarjima qilingan; konsol rang yorliqlari."
+  "notes": "Karta: NAT 1:1, IPsec masofaviy kirish va HA bo'limlari qo'shildi, Suricata 7; Справка: OSPF/BGP, NAT 1:1, HA, Kerio ko'chirish, Windows IKEv2 (13868) izohi, zaxira fayli nomi tuzatildi; HA sahifasidagi eskirgan sinxronizatsiya matni tuzatildi."
 }
