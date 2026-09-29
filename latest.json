@@ -1,7 +1,7 @@
 {
-  "version": "1.1.89",
-  "file": "utm-update-1.1.89.utmupd",
-  "sha256": "647e425eed2797cec6ff18c2294b62cf9cccad67e9cd8524eb13266abd8c873c",
-  "released": "2026-09-28",
-  "notes": "Fixes since 1.1.88: a WireGuard site-to-site tunnel's listen port is opened on every box, so passive tunnels come up on configured gateways; the exception group's numbers on the security page line up with the rows above."
+  "version": "1.1.90",
+  "file": "utm-update-1.1.90.utmupd",
+  "sha256": "e28e4bd90bf76f8f914c01bb8dd15d60a7836182fcd8edd935e321d9ff523acd",
+  "released": "2026-09-29",
+  "notes": "Fixes since 1.1.89: guest segments forward nothing before the portal, never reach the panel or SSH, and get HTTPS after signing in; Kerio import carries group membership and names what it skipped; multi-WAN owns the default route, fails over and back (DHCP primary found in its own table, probes by source address); a PPPoE uplink is named by its PPP device (ppp-<port>) so clients behind it get NAT, and a backup PPPoE line no longer takes the default route or DNS; static interfaces keep their IPv6 addresses; a router left running after OSPF/BGP were removed is stopped; 52 missing translations added and guarded by a test."
 }
