@@ -1,7 +1,7 @@
 {
-  "version": "1.1.90",
-  "file": "utm-update-1.1.90.utmupd",
-  "sha256": "e28e4bd90bf76f8f914c01bb8dd15d60a7836182fcd8edd935e321d9ff523acd",
+  "version": "1.1.91",
+  "file": "utm-update-1.1.91.utmupd",
+  "sha256": "b2226e1c168b2af1f13827bda2f80581991d6d160951fd370c402623522f9ad7",
   "released": "2026-09-29",
-  "notes": "Fixes since 1.1.89: guest segments forward nothing before the portal, never reach the panel or SSH, and get HTTPS after signing in; Kerio import carries group membership and names what it skipped; multi-WAN owns the default route, fails over and back (DHCP primary found in its own table, probes by source address); a PPPoE uplink is named by its PPP device (ppp-<port>) so clients behind it get NAT, and a backup PPPoE line no longer takes the default route or DNS; static interfaces keep their IPv6 addresses; a router left running after OSPF/BGP were removed is stopped; 52 missing translations added and guarded by a test."
+  "notes": "Windows IKEv2: panel va portal Windows uchun PowerShell buyrug'ini ko'rsatadi (13868 xatosi); IPv6: DHCPv6 javoblari qabul qilinadi, PD /64 larda gateway manzili; AD: domen gateway'ning dnsmasq orqali resolv qilinadi; RADIUS: clients.d yuklanadi va o'zgarishda qayta ishga tushadi; proksi AD autentifikatsiyasi LDAPS bilan; 2FA: QR bo'lmasa kalit ko'rsatiladi, xatolar tarjima qilingan; konsol rang yorliqlari."
 }
