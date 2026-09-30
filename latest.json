@@ -1,7 +1,7 @@
 {
-  "version": "1.1.93",
-  "file": "utm-update-1.1.93.utmupd",
-  "sha256": "adfc7189e9df3fa5cb18765b1ac575be475386ab845ad63440b5f2b8ec42ed36",
+  "version": "1.1.94",
+  "file": "utm-update-1.1.94.utmupd",
+  "sha256": "28370828ad64819518a0167554553131415605941c5a0b669f33ccb59a81dcb0",
   "released": "2026-09-30",
-  "notes": "Qoida bo'yicha chiqish kanali endi proksi orqali o'tgan veb-trafikka ham amal qiladi (fallback/block bilan); jurnallar bazasi diskda 5% bo'sh joy qoldiradi; ISO'dagi systemd symlink xatosi tuzatildi — NTP'ni qayta yoqish ishlaydi (yangilanish o'rnatilgan qutilarni ham tuzatadi); konsol oynalari Enter bilan yopiladi; mDNS interfeyslar ro'yxati saqlashda yo'qolmaydi."
+  "notes": "Katta konfiguratsiyada tezlik: Применить 109→23 s, /rules 109→5 s, /users 83→3 s, /reports 42→6 s, URL guruhlari 67→13 s (1000 qoida, 5000 foydalanuvchi, 50 000 domen bilan o'lchangan); panel TLS 1.2 da faqat forward secrecy'li ECDHE shifrlari."
 }
