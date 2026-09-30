@@ -1,7 +1,7 @@
 {
-  "version": "1.1.92",
-  "file": "utm-update-1.1.92.utmupd",
-  "sha256": "cbb3cb4d2ca1d664c49f49fc1cced24339224f42bdfd7ac7456792a03f285967",
-  "released": "2026-09-29",
-  "notes": "Karta: NAT 1:1, IPsec masofaviy kirish va HA bo'limlari qo'shildi, Suricata 7; Справка: OSPF/BGP, NAT 1:1, HA, Kerio ko'chirish, Windows IKEv2 (13868) izohi, zaxira fayli nomi tuzatildi; HA sahifasidagi eskirgan sinxronizatsiya matni tuzatildi."
+  "version": "1.1.93",
+  "file": "utm-update-1.1.93.utmupd",
+  "sha256": "adfc7189e9df3fa5cb18765b1ac575be475386ab845ad63440b5f2b8ec42ed36",
+  "released": "2026-09-30",
+  "notes": "Qoida bo'yicha chiqish kanali endi proksi orqali o'tgan veb-trafikka ham amal qiladi (fallback/block bilan); jurnallar bazasi diskda 5% bo'sh joy qoldiradi; ISO'dagi systemd symlink xatosi tuzatildi — NTP'ni qayta yoqish ishlaydi (yangilanish o'rnatilgan qutilarni ham tuzatadi); konsol oynalari Enter bilan yopiladi; mDNS interfeyslar ro'yxati saqlashda yo'qolmaydi."
 }
