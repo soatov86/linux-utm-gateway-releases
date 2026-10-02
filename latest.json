@@ -1,7 +1,7 @@
 {
-  "version": "1.1.94",
-  "file": "utm-update-1.1.94.utmupd",
-  "sha256": "28370828ad64819518a0167554553131415605941c5a0b669f33ccb59a81dcb0",
-  "released": "2026-09-30",
-  "notes": "Katta konfiguratsiyada tezlik: Применить 109→23 s, /rules 109→5 s, /users 83→3 s, /reports 42→6 s, URL guruhlari 67→13 s (1000 qoida, 5000 foydalanuvchi, 50 000 domen bilan o'lchangan); panel TLS 1.2 da faqat forward secrecy'li ECDHE shifrlari."
+  "version": "1.1.95",
+  "file": "utm-update-1.1.95.utmupd",
+  "sha256": "46dfd63a5e9f87afe92e7efab1cc09cb314f06b1ea8605e838940eb52bdeb672",
+  "released": "2026-10-02",
+  "notes": "Xavfsizlik: nom va qiymatlar konfiguratsiyaga (nftables, dnsmasq, Squid, wpad) begona qator qo'sha olmaydi; QoS sahifasidagi XSS yopildi. DHCP diapazoni to'lishi ogohlantirishi har diapazon uchun. URL guruhlari: ro'yxatni ommaviy qo'shish, 500 qatorli jadval, serverda qidiruv. Telefon uchun ko'rinish: tortma menyu, bitta ustunli dashboard va formalar. Zaxira ro'yxatida «Где хранится» ustuni."
 }
