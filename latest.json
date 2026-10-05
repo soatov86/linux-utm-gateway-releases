@@ -1,7 +1,7 @@
 {
-  "version": "1.1.95",
-  "file": "utm-update-1.1.95.utmupd",
-  "sha256": "46dfd63a5e9f87afe92e7efab1cc09cb314f06b1ea8605e838940eb52bdeb672",
-  "released": "2026-10-02",
-  "notes": "Xavfsizlik: nom va qiymatlar konfiguratsiyaga (nftables, dnsmasq, Squid, wpad) begona qator qo'sha olmaydi; QoS sahifasidagi XSS yopildi. DHCP diapazoni to'lishi ogohlantirishi har diapazon uchun. URL guruhlari: ro'yxatni ommaviy qo'shish, 500 qatorli jadval, serverda qidiruv. Telefon uchun ko'rinish: tortma menyu, bitta ustunli dashboard va formalar. Zaxira ro'yxatida «Где хранится» ustuni."
+  "version": "1.1.96",
+  "file": "utm-update-1.1.96.utmupd",
+  "sha256": "88b3fff9ff28749833c705b57aaee1a565c87266d2ac505e5f4cd102e4798fea",
+  "released": "2026-10-05",
+  "notes": "Loopback kuzatilmaydi (conntrack to'lsa ham quti ishlaydi), TCP MSS clamp, sertifikat muddati ogohlantirishi, IPS oflayn xatosi, HA da panel sessiyasi saqlanadi, 0 baytli bazaga qo'llash rad etiladi"
 }
