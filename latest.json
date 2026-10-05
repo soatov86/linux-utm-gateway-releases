@@ -1,7 +1,7 @@
 {
-  "version": "1.1.96",
-  "file": "utm-update-1.1.96.utmupd",
-  "sha256": "88b3fff9ff28749833c705b57aaee1a565c87266d2ac505e5f4cd102e4798fea",
+  "version": "1.1.97",
+  "file": "utm-update-1.1.97.utmupd",
+  "sha256": "b13a1dd1e7ee0c8e8017099df638f439763ce07f080af2d3dee4bfbb74a3247a",
   "released": "2026-10-05",
-  "notes": "Loopback kuzatilmaydi (conntrack to'lsa ham quti ishlaydi), TCP MSS clamp, sertifikat muddati ogohlantirishi, IPS oflayn xatosi, HA da panel sessiyasi saqlanadi, 0 baytli bazaga qo'llash rad etiladi"
+  "notes": "Vaqt oraliqlari: kun UTC da emas, mahalliy vaqtda to'g'ri ishlaydi (00:00-05:00 dagi bir kunlik siljish tuzatildi); utm-emergency-unlock endi sozlamalarni o'zgartirmaydi, faqat SSH va panelni ochadi"
 }
