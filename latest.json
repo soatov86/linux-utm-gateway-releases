@@ -1,7 +1,7 @@
 {
-  "version": "1.1.97",
-  "file": "utm-update-1.1.97.utmupd",
-  "sha256": "b13a1dd1e7ee0c8e8017099df638f439763ce07f080af2d3dee4bfbb74a3247a",
-  "released": "2026-10-05",
-  "notes": "Vaqt oraliqlari: kun UTC da emas, mahalliy vaqtda to'g'ri ishlaydi (00:00-05:00 dagi bir kunlik siljish tuzatildi); utm-emergency-unlock endi sozlamalarni o'zgartirmaydi, faqat SSH va panelni ochadi"
+  "version": "1.1.98",
+  "file": "utm-update-1.1.98.utmupd",
+  "sha256": "e0ade62fe1d165d289459c05044cc3af722ba580868419e484484d80e51d6759",
+  "released": "2026-10-08",
+  "notes": "Kunlik hisobotga (usage ping) public va wan IP qoshildi"
 }
