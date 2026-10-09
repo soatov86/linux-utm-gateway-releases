@@ -1,7 +1,7 @@
 {
-  "version": "1.1.98",
-  "file": "utm-update-1.1.98.utmupd",
-  "sha256": "e0ade62fe1d165d289459c05044cc3af722ba580868419e484484d80e51d6759",
-  "released": "2026-10-08",
-  "notes": "Kunlik hisobotga (usage ping) public va wan IP qoshildi"
+  "version": "1.1.99",
+  "file": "utm-update-1.1.99.utmupd",
+  "sha256": "a386301a6a76c40dff8811408ab99df623fbf8bdeec70ac11949fe355108013d",
+  "released": "2026-10-09",
+  "notes": "Kerio Control zaxirasidan ko'chirish endi foydalanuvchi parollarini ham olib o'tadi: eski parol ishlashda davom etadi va birinchi muvaffaqiyatli kirishda shlyuzning o'z xeshiga o'tadi. Oldindan ko'rish nechta parol ishlashini yozadi."
 }
