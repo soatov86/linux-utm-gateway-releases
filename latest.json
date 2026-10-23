@@ -1,7 +1,7 @@
 {
-  "version": "1.2.0",
-  "file": "utm-update-1.2.0.utmupd",
-  "sha256": "b8fd7a2133d013af19f473b152976cca7c19321d527c0351cb7dda8f688a7eb0",
-  "released": "2026-10-23",
-  "notes": "ClamAV, IPS va Squid sozlamalari tezroq qo'llanadi; route-based IPsec (VTI) ustida BGP/OSPF va HA failover; panel yangilanishi HA juftligida avval zaxira tugunga; IPsec takroriy SA va strongSwan qayta ishga tushishi tuzatildi; telefonda panel dizayni; zaxira tugunda yolg'on ogohlantirishlar yo'q"
+  "version": "1.2.1",
+  "file": "utm-update-1.2.1.utmupd",
+  "sha256": "6338c9aaec5241e0b6a4315e22eef8cab37b46a58e36a3a555e94ec96b56a930",
+  "released": "2026-10-24",
+  "notes": "Panel 2-6 marta tezroq (ulanishlar puli, talab bo'yicha jadvallar, FRR socket), jurnal oqimi to'xtatildi, VPN/OSPF/BGP qo'shish oynalari, guruh tahriri tuzatildi"
 }
