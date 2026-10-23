@@ -1,7 +1,7 @@
 {
-  "version": "1.1.99",
-  "file": "utm-update-1.1.99.utmupd",
-  "sha256": "a386301a6a76c40dff8811408ab99df623fbf8bdeec70ac11949fe355108013d",
-  "released": "2026-10-09",
-  "notes": "Kerio Control zaxirasidan ko'chirish endi foydalanuvchi parollarini ham olib o'tadi: eski parol ishlashda davom etadi va birinchi muvaffaqiyatli kirishda shlyuzning o'z xeshiga o'tadi. Oldindan ko'rish nechta parol ishlashini yozadi."
+  "version": "1.2.0",
+  "file": "utm-update-1.2.0.utmupd",
+  "sha256": "b8fd7a2133d013af19f473b152976cca7c19321d527c0351cb7dda8f688a7eb0",
+  "released": "2026-10-23",
+  "notes": "ClamAV, IPS va Squid sozlamalari tezroq qo'llanadi; route-based IPsec (VTI) ustida BGP/OSPF va HA failover; panel yangilanishi HA juftligida avval zaxira tugunga; IPsec takroriy SA va strongSwan qayta ishga tushishi tuzatildi; telefonda panel dizayni; zaxira tugunda yolg'on ogohlantirishlar yo'q"
 }
