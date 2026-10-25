@@ -1,7 +1,7 @@
 {
-  "version": "1.2.2",
-  "file": "utm-update-1.2.2.utmupd",
-  "sha256": "6165507068596b74c16e42647f98ab3796747f08c0c0af37fdd2589f8b77fa6a",
+  "version": "1.2.3",
+  "file": "utm-update-1.2.3.utmupd",
+  "sha256": "9989324c57d306c7df94a91d6a559c3b3e4be59fe28cb578db8e8fb2933c25ae",
   "released": "2026-10-25",
-  "notes": "/my/stats ochilishi tezlashtirildi, QoS tugmalari va menyular tuzatildi, DNS hisoboti interfeys tilida, FTP/OSPF/BGP/WireGuard/IPsec sozlamalari alohida oynalarda, sertifikat menyusi, obratnyy proksi oynasi"
+  "notes": "Отказоустойчивость sahifasi: sozlamalar alohida oynalarda va ixcham; conntrackd holati to'g'ri ko'rsatiladi; menyu va oynalar tuzatishlari"
 }
