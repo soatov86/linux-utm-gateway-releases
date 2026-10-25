@@ -1,7 +1,7 @@
 {
-  "version": "1.2.4",
-  "file": "utm-update-1.2.4.utmupd",
-  "sha256": "7b3993805009d5a166541e1a9b768e5e4987a35de15a31f18bb09ab7d002538a",
+  "version": "1.2.5",
+  "file": "utm-update-1.2.5.utmupd",
+  "sha256": "50bbaed03b1ae0a593e69bd3351ae3b9ef31cc919233ba42455d234d532acd7e",
   "released": "2026-10-25",
-  "notes": "Kontrast WCAG AA darajasiga yetkazildi; Standart shrift o'lchami; telefonda 28px tugmalar; DNS va Proksi sozlamalari «Правка...» oynalarida"
+  "notes": "Domen sahifasida RADIUS va mehmon sahifasi sozlamalari «Правка...» oynalarida"
 }
