@@ -1,7 +1,7 @@
 {
-  "version": "1.2.3",
-  "file": "utm-update-1.2.3.utmupd",
-  "sha256": "9989324c57d306c7df94a91d6a559c3b3e4be59fe28cb578db8e8fb2933c25ae",
+  "version": "1.2.4",
+  "file": "utm-update-1.2.4.utmupd",
+  "sha256": "7b3993805009d5a166541e1a9b768e5e4987a35de15a31f18bb09ab7d002538a",
   "released": "2026-10-25",
-  "notes": "Отказоустойчивость sahifasi: sozlamalar alohida oynalarda va ixcham; conntrackd holati to'g'ri ko'rsatiladi; menyu va oynalar tuzatishlari"
+  "notes": "Kontrast WCAG AA darajasiga yetkazildi; Standart shrift o'lchami; telefonda 28px tugmalar; DNS va Proksi sozlamalari «Правка...» oynalarida"
 }
