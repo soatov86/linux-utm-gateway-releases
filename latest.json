@@ -1,7 +1,7 @@
 {
-  "version": "1.2.1",
-  "file": "utm-update-1.2.1.utmupd",
-  "sha256": "6338c9aaec5241e0b6a4315e22eef8cab37b46a58e36a3a555e94ec96b56a930",
-  "released": "2026-10-24",
-  "notes": "Panel 2-6 marta tezroq (ulanishlar puli, talab bo'yicha jadvallar, FRR socket), jurnal oqimi to'xtatildi, VPN/OSPF/BGP qo'shish oynalari, guruh tahriri tuzatildi"
+  "version": "1.2.2",
+  "file": "utm-update-1.2.2.utmupd",
+  "sha256": "6165507068596b74c16e42647f98ab3796747f08c0c0af37fdd2589f8b77fa6a",
+  "released": "2026-10-25",
+  "notes": "/my/stats ochilishi tezlashtirildi, QoS tugmalari va menyular tuzatildi, DNS hisoboti interfeys tilida, FTP/OSPF/BGP/WireGuard/IPsec sozlamalari alohida oynalarda, sertifikat menyusi, obratnyy proksi oynasi"
 }
