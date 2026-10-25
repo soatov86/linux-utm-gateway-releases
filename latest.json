@@ -1,7 +1,7 @@
 {
-  "version": "1.2.5",
-  "file": "utm-update-1.2.5.utmupd",
-  "sha256": "50bbaed03b1ae0a593e69bd3351ae3b9ef31cc919233ba42455d234d532acd7e",
+  "version": "1.2.6",
+  "file": "utm-update-1.2.6.utmupd",
+  "sha256": "87aefbc0d3c761ae92376a1d36cd91cd3c28bf16c2a8ba4e5438ac9a13e1d01f",
   "released": "2026-10-25",
-  "notes": "Domen sahifasida RADIUS va mehmon sahifasi sozlamalari «Правка...» oynalarida"
+  "notes": "Qorong'i mavzuda HA paneli, URL tekshiruvi va IPsec jurnali to'g'ri ranglarda"
 }
