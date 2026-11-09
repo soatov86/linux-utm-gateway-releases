@@ -1,7 +1,7 @@
 {
-  "version": "1.2.8",
-  "file": "utm-update-1.2.8.utmupd",
-  "sha256": "4297c5470bac6db825e7f1b8425012a57b40bdbdae2c2c8d46d9f3821a89d04a",
+  "version": "1.2.9",
+  "file": "utm-update-1.2.9.utmupd",
+  "sha256": "3bfc4bde088646366c1b7730f3a80fefefa1a9050c9eba8684297c7195e27c74",
   "released": "2026-11-09",
-  "notes": "Zaxira FTP paroli shifrlanadi; trafik qoidasi port va manzillari tekshiriladi; NTP sinxronlanmasa timesyncd qayta ishga tushiriladi; IPS/UT1/GeoIP va tizim yangilanishi tekshiruvi yiqilsa qayta urinadi"
+  "notes": "HA: Применить o'zgarmagan interfeys manzillarini o'chirmaydi (VIP uzilmaydi); yangilanishdan keyin Применить faollashadi; strongSwan jurnali ikki baravar va paket yozuvlarisiz; deploy jarayonidagi xato tuzatildi"
 }
