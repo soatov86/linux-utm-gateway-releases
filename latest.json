@@ -1,7 +1,7 @@
 {
-  "version": "1.2.7",
-  "file": "utm-update-1.2.7.utmupd",
-  "sha256": "fb47050890aa555718f9a43106149637b61671aefdc1d170a93c7e4c641c902b",
-  "released": "2026-10-28",
-  "notes": "Multi-WAN qoidalari endi qayta yozilmaydi; tizim jurnali hajmi kamaydi; hisobot to'plash qoidalariga amal qiladi; HA: yangi virtual manzil bo'sh VRID taklif qiladi"
+  "version": "1.2.8",
+  "file": "utm-update-1.2.8.utmupd",
+  "sha256": "4297c5470bac6db825e7f1b8425012a57b40bdbdae2c2c8d46d9f3821a89d04a",
+  "released": "2026-11-09",
+  "notes": "Zaxira FTP paroli shifrlanadi; trafik qoidasi port va manzillari tekshiriladi; NTP sinxronlanmasa timesyncd qayta ishga tushiriladi; IPS/UT1/GeoIP va tizim yangilanishi tekshiruvi yiqilsa qayta urinadi"
 }
