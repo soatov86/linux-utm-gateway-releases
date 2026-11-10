@@ -1,7 +1,7 @@
 {
-  "version": "1.2.10",
-  "file": "utm-update-1.2.10.utmupd",
-  "sha256": "03c1790b3d2dedd3a3d3f82334abe7a93c194ac96a6a93d523f1954fbecc80f7",
+  "version": "1.2.11",
+  "file": "utm-update-1.2.11.utmupd",
+  "sha256": "67f86a212cc02c9822db1b5ebbcbbdb6dcdec0180213fe35470b833363d45340",
   "released": "2026-11-10",
-  "notes": "HA: conntrackd qayta ishga tushgach holatni sherikdan to'liq oladi; proksi va c-icap jurnallari hajm bo'yicha aylantiriladi; HA siz shlyuzda keraksiz conntrackd o'chiriladi; FRR staticd faqat 127.0.0.1 da"
+  "notes": "Primenit tezroq: o'zgarmagan dnsmasq konfiguratsiyasi qayta tekshirilmaydi; tungi UT1 yangilanishi xavfsizroq; xato banneri qizil"
 }
