@@ -1,7 +1,7 @@
 {
-  "version": "1.2.12",
-  "file": "utm-update-1.2.12.utmupd",
-  "sha256": "cf5faa1247c46eec262134d36ce1d9bf4ce93c8810d692abb19e743546c4deb8",
+  "version": "1.2.13",
+  "file": "utm-update-1.2.13.utmupd",
+  "sha256": "85a54300a3d0bafefc7461fa1dbe705906aeb981c44b5c991011481e40721f7f",
   "released": "2026-11-11",
-  "notes": "Interfeys manzili, prefiksi, shlyuzi, DNS va xizmat/qoida portlari saqlashdan oldin tekshiriladi; kontent qoidasidagi kategoriya, domen va yo'naltirish URL tekshiriladi; umumiy /action yo'li olib tashlandi; tungi filtr yangilanishi xavfsizroq"
+  "notes": "Formalarga yozilgan matn (NTP, AD, SNMP, VPN, HA, DNS, DHCP, marshrutlash) endi konfiguratsiya fayliga tekshirilgan holda tushadi"
 }
