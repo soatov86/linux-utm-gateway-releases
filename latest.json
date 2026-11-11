@@ -1,7 +1,7 @@
 {
-  "version": "1.2.11",
-  "file": "utm-update-1.2.11.utmupd",
-  "sha256": "67f86a212cc02c9822db1b5ebbcbbdb6dcdec0180213fe35470b833363d45340",
-  "released": "2026-11-10",
-  "notes": "Primenit tezroq: o'zgarmagan dnsmasq konfiguratsiyasi qayta tekshirilmaydi; tungi UT1 yangilanishi xavfsizroq; xato banneri qizil"
+  "version": "1.2.12",
+  "file": "utm-update-1.2.12.utmupd",
+  "sha256": "cf5faa1247c46eec262134d36ce1d9bf4ce93c8810d692abb19e743546c4deb8",
+  "released": "2026-11-11",
+  "notes": "Interfeys manzili, prefiksi, shlyuzi, DNS va xizmat/qoida portlari saqlashdan oldin tekshiriladi; kontent qoidasidagi kategoriya, domen va yo'naltirish URL tekshiriladi; umumiy /action yo'li olib tashlandi; tungi filtr yangilanishi xavfsizroq"
 }
