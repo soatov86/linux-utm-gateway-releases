@@ -1,7 +1,7 @@
 {
-  "version": "1.2.13",
-  "file": "utm-update-1.2.13.utmupd",
-  "sha256": "85a54300a3d0bafefc7461fa1dbe705906aeb981c44b5c991011481e40721f7f",
-  "released": "2026-11-11",
-  "notes": "Formalarga yozilgan matn (NTP, AD, SNMP, VPN, HA, DNS, DHCP, marshrutlash) endi konfiguratsiya fayliga tekshirilgan holda tushadi"
+  "version": "1.2.14",
+  "file": "utm-update-1.2.14.utmupd",
+  "sha256": "813ede3b520a6415a08ff86ac1f9e9cb5a5c1adcae33815ee65f834ddbc56df0",
+  "released": "2026-11-12",
+  "notes": "OpenVPN CRL har Apply'da yangilanadi; global reklama/malware ro'yxati yuklanadi va kunlik yangilanadi; logs.db bo'sh sahifalarni qaytaradi; Apply vaqtinchalik fayllari tozalanadi"
 }
