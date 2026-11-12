@@ -1,7 +1,7 @@
 {
-  "version": "1.2.14",
-  "file": "utm-update-1.2.14.utmupd",
-  "sha256": "813ede3b520a6415a08ff86ac1f9e9cb5a5c1adcae33815ee65f834ddbc56df0",
-  "released": "2026-11-12",
-  "notes": "OpenVPN CRL har Apply'da yangilanadi; global reklama/malware ro'yxati yuklanadi va kunlik yangilanadi; logs.db bo'sh sahifalarni qaytaradi; Apply vaqtinchalik fayllari tozalanadi"
+  "version": "1.2.15",
+  "file": "utm-update-1.2.15.utmupd",
+  "sha256": "00a3a2b9ee3fa1e66b58a47275715dfdaf97ab3df1fb098bb24db7f9b6105892",
+  "released": "2026-11-13",
+  "notes": "«Применить» tezroq: o'zgarishsiz apply bazani qayta ko'chirmaydi; OpenVPN CRL davriy yangilanadi; test vaqtinchalik fayllari /tmp da qolmaydi"
 }
