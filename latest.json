@@ -1,7 +1,7 @@
 {
-  "version": "1.2.15",
-  "file": "utm-update-1.2.15.utmupd",
-  "sha256": "00a3a2b9ee3fa1e66b58a47275715dfdaf97ab3df1fb098bb24db7f9b6105892",
+  "version": "1.2.16",
+  "file": "utm-update-1.2.16.utmupd",
+  "sha256": "47209d75e0520cb72cc9fb2c8120b8b7cd0d20ec91b883623e78f3e652b927ef",
   "released": "2026-11-13",
-  "notes": "«Применить» tezroq: o'zgarishsiz apply bazani qayta ko'chirmaydi; OpenVPN CRL davriy yangilanadi; test vaqtinchalik fayllari /tmp da qolmaydi"
+  "notes": "Apply o'zgarmagan bosqichlarni (DNS, Squid, IPsec, OpenVPN, reverse-proxy) qayta ishlatmaydi"
 }
